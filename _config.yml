@@ -88,3 +88,6 @@ deploy:
   type: git
   repo: https://github.com/iamfeiyu/iamfeiyu.github.io.git
   branch: master
+  message: "Updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+  user: iamfeiyu
+  email: dhydghdq@outlook.com
