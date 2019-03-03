@@ -1,11 +1,12 @@
 ﻿---
 title: Markdown语法
+date: 2018-05-06 00:10:55
 categories: 
-- 参考
-- Markdown
+	- 参考
+	- Markdown
 tags: 
-- Markdown
-- 语法
+	- Markdown
+	- 语法
 ---
 
 >还不知道Markdown用在哪里，自行百度很容易可了解到。
@@ -16,6 +17,8 @@ tags:
 
 	这个文档本身就是使用Markdown编写的。
 	Markdown编辑器允许你通过编写易读、易写的富文本格式，然后很方便就可以转换成有效的HTML。
+
+	<!--more-->
 ### 标题
 Setxt-style:
 ```

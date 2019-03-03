@@ -86,5 +86,5 @@ theme: next.v.6.6.0
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://iamfeiyu:qq52200821@github.com/iamfeiyu/feiyu.github.io.git
+  repo: https://github.com/iamfeiyu/iamfeiyu.github.io.git
   branch: master
