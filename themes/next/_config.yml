@@ -819,7 +819,7 @@ label: true
 tabs:
   enable: true
   transition:
-    tabs: false
+    tabs: true
     labels: true
   border_radius: 0
 

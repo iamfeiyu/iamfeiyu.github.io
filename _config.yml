@@ -43,6 +43,8 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
+
+# Local Search
 # 搜索插件 hexo-generator-searchdb
 # see https://github.com/theme-next/hexo-generator-searchdb
 search:
