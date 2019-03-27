@@ -1,12 +1,12 @@
-# Hexo Configuration
+﻿# Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
 title: 飞鱼的博客
-subtitle: 灵感来自于专注的每一分每一秒
+subtitle: 纸上得来终觉浅，绝知此事要躬行
 description: 飞鱼的博客
-keywords: 博客, Blog, Feiyu, 飞鱼
+keywords: 博客, Blog, Feiyu, 飞鱼, 产品经理, 互联网
 author: Feiyu
 language: zh-CN
 timezone:
