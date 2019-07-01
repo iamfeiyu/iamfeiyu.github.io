@@ -6,8 +6,8 @@
 title: 飞鱼的博客
 subtitle: 纸上得来终觉浅，绝知此事要躬行
 description: 飞鱼的博客
-keywords: 博客, Blog, Feiyu, 飞鱼, 产品经理, 互联网
-author: Feiyu
+keywords: 博客, Blog, feiyu, 飞鱼, 产品经理, 互联网
+author: feiyu
 language: zh-CN
 timezone:
 
@@ -95,11 +95,65 @@ deploy:
   user: iamfeiyu
   email: dhydghdq@outlook.com
 
+# Symbols_count_time 站点配置中打开文章字数统计、阅读时间估算统计
+symbols_count_time:
+  symbols: true
+  time: false
+  total_symbols: false
+  total_time: false
+  exclude_codeblock: false
 
 # ---------------------------------------------------------------
 # Next主题的配置项
 # ---------------------------------------------------------------
 theme_config:
+  footer:
+    # Specify the date when the site was setup. If not defined, current year will be used.
+    #since: 2015
+
+    # Icon between year and copyright info.
+    icon:
+      # Icon name in fontawesome, see: https://fontawesome.com/v4.7.0/icons/
+      # `heart` is recommended with animation in red (#ff0000).
+      name: user
+      # If you want to animate the icon, set it to true.
+      animated: false
+      # Change the color of icon, using Hex Code.
+      color: "#808080"
+
+    # If not defined, `author` from Hexo main config will be used.
+    copyright: feiyu
+
+    powered:
+      # Hexo link (Powered by Hexo).
+      enable: false
+      # Version info of Hexo after Hexo link (vX.X.X).
+      version: false
+
+    theme:
+      # Theme & scheme info link (Theme - NexT.scheme).
+      enable: false
+      # Version info of NexT after scheme info (vX.X.X).
+      version: false
+
+  # Creative Commons 4.0 International License.
+  # See: https://creativecommons.org/share-your-work/licensing-types-examples
+  # Available values of license: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+  # You can set a language value if you prefer a translated version of CC license.
+  # CC licenses are available in 39 languages, where you can find the specific and correct abbreviation you need.
+  # Valid values of language: deed.zh, deed.fr, deed.de, etc.
+  creative_commons:
+    license: by-nc-sa
+    sidebar: false
+    post: true
+    language:
+
+  # `Follow me on GitHub` banner in the top-right corner.
+  github_banner:
+    enable: true
+    permalink: https://github.com/iamfeiyu
+    title: Follow me on GitHub
+
   # SEO Settings
   # Change headers hierarchy on site-subtitle (will be main site description) and on all post / page titles for better SEO-optimization.
   seo: true
@@ -138,13 +192,6 @@ theme_config:
     #Instagram: https://instagram.com/yourname || instagram
     #Skype: skype:yourname?call|chat || skype
 
-  # Github_banner
-  # Follow me on GitHub banner in right-top corner.
-  # Usage: `permalink || title`
-  # Value before `||` delimeter is the target permalink.
-  # Value after `||` delimeter is the title and aria-label name.
-  github_banner: https://github.com/iamfeiyu || Follow me on GitHub
-
   # Sidebar Avatar
   avatar:
     # In theme directory (source/images): /images/avatar.gif
@@ -161,7 +208,7 @@ theme_config:
   back2top:
     enable: true
     # Back to top in sidebar.
-    sidebar: false
+    sidebar: true
     # Scroll percent label in b2t button.
     scrollpercent: true
 
@@ -180,7 +227,17 @@ theme_config:
       enable: false
       another_day: false
 
-  # Wechat Subscriber
+  # Post wordcount display settings 主题配置文件中设置文章字数统计、阅读时间估算统计
+  # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
+  symbols_count_time:
+    separated_meta: true
+    item_text_post: true
+    item_text_total: false
+    awl: 2
+    wpm: 300
+    suffix: mins.
+
+  # Wechat Subscriber 微信账号二维码
   wechat_subscriber:
     enable: true
     qcode: uploads/images/wechat-qcode.jpg
