@@ -1,4 +1,4 @@
-﻿---
+---
 title: Markdown语法
 date: 2018-05-06 12:10:55
 categories: 
@@ -18,7 +18,8 @@ tags:
 	这个文档本身就是使用Markdown编写的。
 	Markdown编辑器允许你通过编写易读、易写的富文本格式，然后很方便就可以转换成有效的HTML。
 
-<!--more-->
+<!--more-->s
+
 ### 标题
 Setxt-style:
 ```

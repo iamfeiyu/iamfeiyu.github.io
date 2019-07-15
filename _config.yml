@@ -236,6 +236,7 @@ theme_config:
     updated_at:
       enable: false
       another_day: false
+    categories: true   #文章开头显示分类于
 
   # Post wordcount display settings 主题配置文件中设置文章字数统计、阅读时间估算统计
   # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
