@@ -288,6 +288,11 @@ theme_config:
     # Unescape html strings to the readable one.
     unescape: false
 
+  # ---------------------------------------------------------------
+  # Tags Settings 主题标签插件设置
+  # See: https://theme-next.org/docs/tag-plugins/
+  # ---------------------------------------------------------------
+
   # Tabs tag
   tabs:
     enable: true
@@ -295,4 +300,5 @@ theme_config:
       tabs: false
       labels: true
     border_radius: 0
+
 
