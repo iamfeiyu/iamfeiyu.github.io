@@ -32,8 +32,13 @@ $ hexo d
 ### 常用指令
 
 ```
-# 标准参数启动服务器，生成或部署
-hexo clean && hexo g -d && hexo s
+# 标准参数启动服务器，生成和部署
+hexo clean && hexo g -d
+```
+
+```
+# 标准参数启动服务器，生成和本地预览
+hexo clean && hexo g && hexo s
 ```
 
 ```

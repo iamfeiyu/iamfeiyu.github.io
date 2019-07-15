@@ -266,36 +266,6 @@ theme_config:
     alipay: uploads/images/alipay.jpg
     #bitcoin: /images/bitcoin.png
 
-  # ---------------------------------------------------------------
-  # Content Sharing Services
-  # See: https://theme-next.org/docs/third-party-services/content-sharing-services
-  # ---------------------------------------------------------------
-
-  # NeedMoreShare2
-  # Dependencies: https://github.com/theme-next/theme-next-needmoreshare2
-  # iconStyle: default | box
-  # boxForm: horizontal | vertical
-  # position: top / middle / bottom + Left / Center / Right
-  # networks:
-  # Weibo,Wechat,Douban,QQZone,Twitter,Facebook,Linkedin,Mailto,Reddit,Delicious,StumbleUpon,Pinterest,
-  # GooglePlus,Tumblr,GoogleBookmarks,Newsvine,Evernote,Friendfeed,Vkontakte,Odnoklassniki,Mailru
-  needmoreshare2:
-    enable: true
-    postbottom:
-      enable: true
-      options:
-        iconStyle: box
-        boxForm: horizontal
-        position: bottomCenter
-        networks: Weibo,Wechat,Linkedin,Douban,Evernote,Twitter,Facebook
-    float:
-      enable: false
-      options:
-        iconStyle: box
-        boxForm: vertical
-        position: topRight
-        networks: Weibo,Wechat,Linkedin,Douban,Evernote,Twitter,Facebook
-
   # Statistics and Analytics 设置页面底部统计项：浏览量
   busuanzi_count:
     enable: true
