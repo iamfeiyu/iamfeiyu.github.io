@@ -253,7 +253,7 @@ theme_config:
     qcode: uploads/images/wechat-qcode.jpg
     #description: e.g. subscribe to my blog by scanning my public wechat account
 
-  # Reward (Donate) //奖励二维码的设置，当前还未设置，设置后请删除当前这句话
+  # Reward (Donate) //奖励二维码的设置
   reward_settings:
     # If true, reward would be displayed in every article by default.
     # You can show or hide reward in a specific article throuth `reward: true | false` in Front-matter.
@@ -266,7 +266,7 @@ theme_config:
     alipay: uploads/images/alipay.jpg
     #bitcoin: /images/bitcoin.png
 
-  # Statistics and Analytics
+  # Statistics and Analytics 设置页面底部统计项：浏览量
   busuanzi_count:
     enable: true
     total_visitors: true
