@@ -267,7 +267,7 @@ theme_config:
     #bitcoin: /images/bitcoin.png
 
   # ---------------------------------------------------------------
-  # Content Sharing Services
+  # Content Sharing Services 文章分享服务
   # See: https://theme-next.org/docs/third-party-services/content-sharing-services
   # ---------------------------------------------------------------
 
@@ -296,6 +296,11 @@ theme_config:
         position: topRight
         networks: Weibo,Wechat,Linkedin,Douban,Evernote,Twitter,Facebook
 
+  # ---------------------------------------------------------------
+  # Statistics and Analytics 统计与分析
+  # See: https://theme-next.org/docs/third-party-services/statistics-and-analytics
+  # ---------------------------------------------------------------
+
   # Statistics and Analytics 设置页面底部统计项：浏览量
   busuanzi_count:
     enable: true
@@ -305,6 +310,11 @@ theme_config:
     total_views_icon: eye
     post_views: true
     post_views_icon: eye
+
+  # ---------------------------------------------------------------
+  # Search Services 搜索服务设置
+  # See: https://theme-next.org/docs/third-party-services/search-services
+  # ---------------------------------------------------------------
 
   # Local search 本地搜索加载到主题中
   # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
@@ -331,4 +341,16 @@ theme_config:
       labels: true
     border_radius: 0
 
+  # ---------------------------------------------------------------
+  # Animation Settings 主题动画设置
+  # ---------------------------------------------------------------
 
+  # 飞鱼设置页面加载动画
+  # Progress bar in the top during page loading.
+  # Dependencies: https://github.com/theme-next/theme-next-pace
+  pace: true
+  # Themes list:
+  # pace-theme-big-counter | pace-theme-bounce | pace-theme-barber-shop | pace-theme-center-atom
+  # pace-theme-center-circle | pace-theme-center-radar | pace-theme-center-simple | pace-theme-corner-indicator
+  # pace-theme-fill-left | pace-theme-flash | pace-theme-loading-bar | pace-theme-mac-osx | pace-theme-minimal
+  pace_theme: pace-theme-flash
