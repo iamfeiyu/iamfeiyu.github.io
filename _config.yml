@@ -6,14 +6,14 @@
 title: 飞鱼的博客
 subtitle: 纸上得来终觉浅，绝知此事要躬行
 description: 飞鱼的博客
-keywords: 博客, Blog, feiyu, 飞鱼, 产品经理, 互联网
+keywords: 博客, Blog, feiyu, 飞鱼, 产品经理, 互联网, 飞鱼的博客, iamfeiyu
 author: feiyu
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://iamfeiyu.github.io
+url: https://www.iamfeiyu.top          # url: https://iamfeiyu.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -172,12 +172,42 @@ theme_config:
   # SEO Settings
   # ---------------------------------------------------------------
 
+  # Disable Baidu transformation on mobile devices.
+  disable_baidu_transformation: false
+
+  # Set a canonical link tag in your hexo, you could use it for your SEO of blog.
+  # See: https://support.google.com/webmasters/answer/139066
+  # Tips: Before you open this tag, remember set up your URL in hexo _config.yml (e.g. url: http://yourdomain.com)
+  canonical: true
+
   # Change headers hierarchy on site-subtitle (will be main site description) and on all post / page titles for better SEO-optimization.
   seo: true
 
   # If true, will add site-subtitle to index page, added in main hexo config.
   # subtitle: Subtitle
   index_with_subtitle: true
+
+  # Automatically add external URL with BASE64 encrypt & decrypt.
+  exturl: true
+  
+  # Google Webmaster tools verification.
+  # See: https://www.google.com/webmasters
+  google_site_verification: GPQKjVjUxa8f14eEVWyI0LuiNjRuo2UAlLZauruei0g
+
+  # Bing Webmaster tools verification.
+  # See: https://www.bing.com/webmaster
+  #bing_site_verification:
+
+  # Yandex Webmaster tools verification.
+  # See: https://webmaster.yandex.ru
+  #yandex_site_verification:
+
+  # Baidu Webmaster tools verification.
+  # See: https://ziyuan.baidu.com/site
+  baidu_site_verification: beN3QJi3nu
+
+  # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
+  baidu_push: true
   
   # ---------------------------------------------------------------
   # Menu Settings
