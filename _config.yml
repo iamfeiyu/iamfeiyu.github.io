@@ -199,6 +199,11 @@ theme_config:
     #sitemap: /sitemap.xml || sitemap
     #commonweal: /404/ || heartbeat
 
+  # Enable / Disable menu icons / item badges.
+  menu_settings:
+    icons: true
+    badges: true
+
   # ---------------------------------------------------------------
   # Scheme Settings
   # ---------------------------------------------------------------

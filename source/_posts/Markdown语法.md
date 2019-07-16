@@ -18,7 +18,7 @@ tags:
 	这个文档本身就是使用Markdown编写的。
 	Markdown编辑器允许你通过编写易读、易写的富文本格式，然后很方便就可以转换成有效的HTML。
 
-<!--more-->s
+<!--more-->
 
 ### 标题
 Setxt-style:
