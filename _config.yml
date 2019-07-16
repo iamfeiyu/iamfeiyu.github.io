@@ -107,6 +107,20 @@ symbols_count_time:
 # Next主题的配置项
 # ---------------------------------------------------------------
 theme_config:
+
+  # ---------------------------------------------------------------
+  # Site Information Settings
+  # See: https://theme-next.org/docs/getting-started/
+  # ---------------------------------------------------------------
+
+  favicon:
+    small: uploads/images/favicon-16x16-next.png
+    medium: uploads/images/favicon-32x32-next.png
+    apple_touch_icon: uploads/images/apple-touch-icon-next.png
+    safari_pinned_tab: uploads/images/logo.svg
+    #android_manifest: /images/manifest.json
+    #ms_browserconfig: /images/browserconfig.xml
+
   footer:
     # Specify the date when the site was setup. If not defined, current year will be used.
     since: 2018
@@ -154,14 +168,27 @@ theme_config:
     permalink: https://github.com/iamfeiyu
     title: Follow me on GitHub
 
+  # ---------------------------------------------------------------
   # SEO Settings
+  # ---------------------------------------------------------------
+
   # Change headers hierarchy on site-subtitle (will be main site description) and on all post / page titles for better SEO-optimization.
   seo: true
+
   # If true, will add site-subtitle to index page, added in main hexo config.
   # subtitle: Subtitle
   index_with_subtitle: true
   
+  # ---------------------------------------------------------------
   # Menu Settings
+  # ---------------------------------------------------------------
+
+  # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash from link value (/archives -> archives).
+  # Usage: `Key: /link/ || icon`
+  # Key is the name of menu item. If the translation for this item is available, the translated text will be loaded, otherwise the Key name will be used. Key is case-senstive.
+  # Value before `||` delimeter is the target link.
+  # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
+  # External url should start with http:// or https://
   menu:
     home: / || home
     #about: /about/ || user
@@ -172,13 +199,21 @@ theme_config:
     #sitemap: /sitemap.xml || sitemap
     #commonweal: /404/ || heartbeat
 
+  # ---------------------------------------------------------------
+  # Scheme Settings
+  # ---------------------------------------------------------------
+
   # Schemes
   #scheme: Muse
   #scheme: Mist
   #scheme: Pisces
   scheme: Gemini
 
-  # Social Links
+  # ---------------------------------------------------------------
+  # Sidebar Settings
+  # See: https://theme-next.org/docs/theme-settings/sidebar
+  # ---------------------------------------------------------------
+
   social:
     GitHub: https://github.com/iamfeiyu || github
     E-Mail: mailto:emailFeiyu@163.com || envelope
