@@ -15,7 +15,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://www.iamfeiyu.top          # url: https://iamfeiyu.github.io
 root: /
-permalink: post/:urlname/
+permalink: posts/:urlname/
 permalink_defaults: 
   urlname: index
 # permalink: :year/:month/:day/:title/
