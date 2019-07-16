@@ -391,8 +391,8 @@ theme_config:
   # pace-theme-fill-left | pace-theme-flash | pace-theme-loading-bar | pace-theme-mac-osx | pace-theme-minimal
   pace_theme: pace-theme-flash
 
-  # Online contact 设置多说匿名对话功能
-  daovoice: true
+  # Online contact 设置在线匿名对话功能
+  daovoice: false
   daovoice_app_id: 820a9276
 
   # 文章末尾添加“本文结束”标记
