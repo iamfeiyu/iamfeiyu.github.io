@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 飞鱼的博客
+title: feiyu's blog | VolitantFish
 subtitle: 纸上得来终觉浅，绝知此事要躬行
-description: 飞鱼的博客
-keywords: 博客, Blog, feiyu, 飞鱼, 产品经理, 互联网, 飞鱼的博客, iamfeiyu
+description: feiyu's blog
+keywords: 博客, blog, feiyu, iamfeiyu
 author: feiyu
 language: zh-CN
 timezone:
@@ -236,10 +236,11 @@ theme_config:
   # External url should start with http:// or https://
   menu:
     home: / || home
-    #about: /about/ || user
-    tags: /tags/ || tags
-    categories: /categories/ || th
     archives: /archives/ || archive
+    categories: /categories/ || th
+    tags: /tags/ || tags
+    playlist: /playlist/ || music
+    about: /about/ || user
     #schedule: /schedule/ || calendar
     #sitemap: /sitemap.xml || sitemap
     #commonweal: /404/ || heartbeat
