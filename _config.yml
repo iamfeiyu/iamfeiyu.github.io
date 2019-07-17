@@ -106,6 +106,18 @@ symbols_count_time:
   total_time: false
   exclude_codeblock: false
 
+# 设置Hexo支持aplayer音乐播放器（支持Meting，解析中国各大音乐平台接口）
+aplayer:
+  #script_dir: some/place                        # Script asset path in public directory, default: 'assets/js'
+  #style_dir: some/place                         # Style asset path in public directory, default: 'assets/css'
+  #cdn: http://xxx/aplayer.min.js                # External APlayer.js url (CDN)
+  #style_cdn: http://xxx/aplayer.min.css         # External APlayer.css url (CDN)
+  meting: true                                  # Meting support, default: false
+  #meting_api: http://xxx/api.php                # Meting api url
+  #meting_cdn: http://xxx/Meing.min.js           # External Meting.js url (CDN)
+  #asset_inject: true                            # Auto asset injection, default: true
+  #externalLink: http://xxx/aplayer.min.js       # Deprecated, use 'cdn' instead
+
 # ---------------------------------------------------------------
 # Next主题的配置项
 # ---------------------------------------------------------------
