@@ -354,10 +354,30 @@ theme_config:
     #bitcoin: /images/bitcoin.png
 
   # ---------------------------------------------------------------
+  # Third Party Services Settings 第三方服务库配置
+  # See: https://theme-next.org/docs/third-party-services/
+  # You may need to install dependencies or set CDN URLs in `vendors`
+  # There are two different CDN providers by default:
+  #   - jsDelivr (cdn.jsdelivr.net), works everywhere even in China
+  #   - CDNJS (cdnjs.cloudflare.com), provided by cloudflare
+  # ---------------------------------------------------------------
+
+  # ---------------------------------------------------------------
+  # Comments and Widgets 评论系统与小部件
+  # See: https://theme-next.org/docs/third-party-services/comments-and-widgets
+  # ---------------------------------------------
+
+  # LiveRe comments system 来必力评论系统
+  # You can get your uid from https://livere.com/insight/myCode (General web site)
+  livere_uid: MTAyMC80NTQzNy8yMTk0OQ==
+
+  # ---------------------------------------------------------------
   # Content Sharing Services 文章分享服务
   # See: https://theme-next.org/docs/third-party-services/content-sharing-services
   # ---------------------------------------------------------------
 
+  #needmoreshare2_js:
+  #needmoreshare2_css: 
   # NeedMoreShare2
   # Dependencies: https://github.com/theme-next/theme-next-needmoreshare2
   # iconStyle: default | box
@@ -432,6 +452,36 @@ theme_config:
   # Animation Settings 主题动画设置
   # ---------------------------------------------------------------
 
+  # Use velocity to animate everything.
+  motion:
+    enable: true
+    async: false
+    transition:
+      # Transition variants:
+      # fadeIn | fadeOut | flipXIn | flipXOut | flipYIn | flipYOut | flipBounceXIn | flipBounceXOut | flipBounceYIn | flipBounceYOut
+      # swoopIn | swoopOut | whirlIn | whirlOut | shrinkIn | shrinkOut | expandIn | expandOut
+      # bounceIn | bounceOut | bounceUpIn | bounceUpOut | bounceDownIn | bounceDownOut | bounceLeftIn | bounceLeftOut | bounceRightIn | bounceRightOut
+      # slideUpIn | slideUpOut | slideDownIn | slideDownOut | slideLeftIn | slideLeftOut | slideRightIn | slideRightOut
+      # slideUpBigIn | slideUpBigOut | slideDownBigIn | slideDownBigOut | slideLeftBigIn | slideLeftBigOut | slideRightBigIn | slideRightBigOut
+      # perspectiveUpIn | perspectiveUpOut | perspectiveDownIn | perspectiveDownOut | perspectiveLeftIn | perspectiveLeftOut | perspectiveRightIn | perspectiveRightOut
+      post_block: fadeIn
+      post_header: slideDownIn
+      post_body: slideDownIn
+      coll_header: slideLeftIn
+      # Only for Pisces | Gemini.
+      sidebar: slideRightIn #slideUpIn
+
+  # Fancybox 灯箱效果看图（点击图片全屏看图）
+  fancybox: true
+  
+  # Polyfill to remove click delays on browsers with touch UIs.
+  # Dependencies: https://github.com/theme-next/theme-next-fastclick
+  fastclick: true
+
+  # Vanilla JavaScript plugin for lazyloading images.
+  # Dependencies: https://github.com/theme-next/theme-next-jquery-lazyload
+  lazyload: true
+
   # 设置页面加载动画
   # Progress bar in the top during page loading.
   # Dependencies: https://github.com/theme-next/theme-next-pace
@@ -449,7 +499,3 @@ theme_config:
   # 文章末尾添加“本文结束”标记
   passage_end_tag:
     enabled: true
-
-  # Fancybox 灯箱效果看图（点击图片全屏看图）
-  fancybox: true
-
