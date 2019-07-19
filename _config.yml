@@ -449,3 +449,7 @@ theme_config:
   # 文章末尾添加“本文结束”标记
   passage_end_tag:
     enabled: true
+
+  # Fancybox 灯箱效果看图（点击图片全屏看图）
+  fancybox: true
+
