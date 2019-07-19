@@ -443,8 +443,8 @@ theme_config:
   pace_theme: pace-theme-flash
 
   # Online contact 设置在线匿名对话功能
-  daovoice: false
-  daovoice_app_id: 820a9276
+  daovoice: true
+  daovoice_app_id: efb1e7fd
 
   # 文章末尾添加“本文结束”标记
   passage_end_tag:

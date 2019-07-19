@@ -1,13 +1,12 @@
 ---
-title: Markdown语法
-urlname: Markdown语法
+title: Markdown语法入门看这篇就够了
+urlname: Markdown语法入门看这篇就够了
 date: 2018-05-06 12:10:55
 categories: 
-	- 参考
+	- 技能
 	- Markdown
 tags: 
-	- Markdown
-	- 语法
+	- 工具书
 ---
 
 >还不知道Markdown用在哪里，自行百度很容易可了解到。
