@@ -24,21 +24,21 @@ tags:
 
 > 数据来自艾瑞App指数
 
-### ![sanjieke20190720150000](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150000.png)
+### ![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150000.png)
 
-![sanjieke20190720150038](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150038.png)
+![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150038.png)
 
-![sanjieke20190720150100](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150100.png)
+![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150100.png)
 
 从这三款产品的用户画像可以看出，三款产品的用户从年龄维度看几乎重叠，几乎80后占到了各自用户人群的80%，其中使用QQ的用户中90后比其它两款产品稍多一点。从图中还可以知道，使用微博的女性用户多余男性用户，而其它两款产品与此相反。
 
 ### 用户需求分析比对
 
-![sanjieke20190720150556](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150556.png)
+![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150556.png)
 
-![sanjieke20190720150530](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150530.png)
+![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150530.png)
 
-![sanjieke20190720150646](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150646.png)
+![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150646.png)
 
 通过用户画像和用户需求分析思维导图，可以看出，这三款产品的针对的用户群体类型差异蛮大的：
 
@@ -57,13 +57,13 @@ QQ：v7.9.7.3920（当前最新版）
 
 ### 功能测试界面：
 
-![sanjieke20190720150718](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150718.png)
+![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150718.png)
 
-![sanjieke20190720150738](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150738.png)
+![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150738.png)
 
 ### 用户操作路径：
 
-![sanjieke20190720150850](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150850.png)
+![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150850.png)
 
 **1）触发方式**
 
@@ -81,7 +81,7 @@ c、微博发布内容后，会跳转到微博首页，发布内容显示在首�
 
 ### 核心业务流程对比
 
-![sanjieke20190720150949](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150949.png)
+![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150949.png)
 
 通过对业务流程的对比可以看出，「内容发布」功能流程方面，QQ动态和新浪微博一致，纯文字内容发布和图文发布合二为一，而微信将纯文字内容发布和图文内容发布分开来。
 
@@ -89,7 +89,7 @@ c、微博发布内容后，会跳转到微博首页，发布内容显示在首�
 
 ### 功能项对比：
 
-![sanjieke20190720151013](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720151013.png)
+![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720151013.png)
 
 从内容编辑设置功能看，QQ动态的「内容发布」功能的小功能最为丰富，其次是新浪微博，最后是微信朋友圈。
 

@@ -19,7 +19,7 @@ tags:
 
 ## 业务流程图
 
-![sanjieke20190720145743](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720145743.png)
+![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720145743.png)
 
  
 

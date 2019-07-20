@@ -21,13 +21,13 @@ tags:
 
 下面是「发布」功能的业务流程图：
 
-![sanjieke20190720145823](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720145823.png)
+![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720145823.png)
 
 ## 发布功能页面流程图
 
 下面是根据发布功能业务流程图制作的页面流程图：
 
-![sanjieke20190720145906](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720145906.png)
+![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720145906.png)
 
 ## 页面流程分析总结
 
