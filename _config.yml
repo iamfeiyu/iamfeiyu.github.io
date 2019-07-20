@@ -334,6 +334,17 @@ theme_config:
     wpm: 300
     suffix: mins.
 
+  codeblock:
+    # Manual define the border radius in codeblock, leave it blank for the default value: 1
+    border_radius:
+    # Add copy button on codeblock
+    copy_button:
+      enable: true
+      # Show text copy result
+      show_result: true
+      # Style: only 'flat' is currently available, leave it blank if you prefer default theme
+      style:
+
   # Wechat Subscriber 微信账号二维码/微信公众号二维码/关注微信公众号
   wechat_subscriber:
     enable: false
@@ -480,7 +491,7 @@ theme_config:
 
   # Vanilla JavaScript plugin for lazyloading images.
   # Dependencies: https://github.com/theme-next/theme-next-jquery-lazyload
-  lazyload: true
+  lazyload: false
 
   # 设置页面加载动画
   # Progress bar in the top during page loading.
