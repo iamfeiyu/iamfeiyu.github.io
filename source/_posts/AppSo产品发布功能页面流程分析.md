@@ -17,6 +17,8 @@ tags:
 
 体验发布产品到「AppWall」的功能：体验整个功能逻辑：点击发布——搜索app——编写内容——等待审核——发布成功
 
+<!-- more -->
+
 下面是「发布」功能的业务流程图：
 
 ![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720145823.png)
