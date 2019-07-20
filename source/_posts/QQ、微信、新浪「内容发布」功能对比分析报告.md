@@ -24,7 +24,7 @@ tags:
 
 > 数据来自艾瑞App指数
 
-### ![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150000.png)
+![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150000.png)
 
 ![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720150038.png)
 
