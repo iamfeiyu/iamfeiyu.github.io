@@ -39,7 +39,7 @@ hexo clean && hexo g -d
 ```
 # 标准参数启动服务器，生成和本地预览
 hexo clean && hexo g && hexo s
-```
+``` 
 
 ```
 # 生成静态文件后部署 
