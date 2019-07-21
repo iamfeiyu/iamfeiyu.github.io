@@ -334,14 +334,15 @@ theme_config:
     wpm: 300
     suffix: mins.
 
+  # 设置代码块圆角及复制按钮是否显示
   codeblock:
     # Manual define the border radius in codeblock, leave it blank for the default value: 1
     border_radius:
     # Add copy button on codeblock
     copy_button:
-      enable: true
+      enable: false
       # Show text copy result
-      show_result: true
+      show_result: false
       # Style: only 'flat' is currently available, leave it blank if you prefer default theme
       style:
 
