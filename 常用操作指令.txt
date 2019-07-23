@@ -3,7 +3,11 @@
 ```
 $ hexo new [layout] <title>
 ```
-
+如：
+```
+# 或 hexo new 新文章
+hexo new post 新文章
+```
 ### generate
 生成静态文件。
 ```
