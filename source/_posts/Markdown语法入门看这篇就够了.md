@@ -6,7 +6,7 @@ categories:
 	- 技能
 	- Markdown
 tags: 
-	- 工具书
+	- 工具
 ---
 
 ## 标准Markdown语法
@@ -89,20 +89,49 @@ Email
 ```
 ### 引用
 ```
->段落前面添加大于号和空格，就能够形成引用段落。
+> 段落前面添加大于号和空格，就能够形成引用段落。
 >> 这是嵌套的引用。
 ```
 ### 内联代码
 
-`内联代码`使用反映好包含
-你也可以像`` `这样` ``转义反引号
+`内联代码`使用反引号包含
+
+```
+`内联代码`使用反引号包含
+```
+
+你也可以像``这样采用转义反引号
+
+```
+你也可以像``这样``使用转义反引号
+```
+
 ### 代码块
-每行缩进4个空格或者1个tab：
+通常上下使用3个反引号来包含代码
+
+```html
+​```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+​```
 ```
-这是正常的段落。记得在使用tab的时候，在上面空一行。
-这是代码块。
-```
+
+有些编辑器也可以采用在代码的每行前，增加缩进4个空格或者1个tab来呈现
+
+tips：记得在使用tab的时候，在上面空一行
+
 ### 水平分割线
+
 三个或更多的星号或下划线：
 ```
 ___
@@ -145,3 +174,4 @@ Content Cell | Content Cell | Content Cell
 | Content Cell | Content Cell | Content Cell |
 | Content Cell | Content Cell | Content Cell |
 ```
+
