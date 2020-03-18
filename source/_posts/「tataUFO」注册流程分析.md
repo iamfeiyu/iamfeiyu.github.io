@@ -1,12 +1,13 @@
 ---
 title: 「tataUFO」注册流程分析
-date: 2019-03-29 20:11:28
 urlname: 「tataUFO」注册流程分析
 categories:
-    - 产品经理
+  - 产品经理
 tags:
-    - 分析报告
-    - 产品感
+  - 分析报告
+  - 产品感
+abbrlink: f872f4a9
+date: 2019-03-29 20:11:28
 ---
 
 ## 前言
@@ -23,9 +24,7 @@ tags:
 
 ## 业务流程图
 
-![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720145743.png)
-
- 
+![](http://cdn1.iamyu.top/20190720145743.png)
 
 ## 总结
 

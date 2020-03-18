@@ -1,12 +1,13 @@
 ---
 title: AppSo产品发布功能页面流程分析
-date: 2019-04-02 19:19:36
 urlname: AppSo产品发布功能页面流程分析
 categories:
-    - 产品经理
+  - 产品经理
 tags:
-    - 产品感
-    - 流程分析
+  - 产品感
+  - 流程分析
+abbrlink: 3c1dfcc0
+date: 2019-04-02 19:19:36
 ---
 
 ## 目的 
@@ -21,13 +22,13 @@ tags:
 
 下面是「发布」功能的业务流程图：
 
-![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720145823.png)
+![](http://cdn1.iamyu.top/20190720145823.png)
 
 ## 发布功能页面流程图
 
 下面是根据发布功能业务流程图制作的页面流程图：
 
-![](https://awakeninggeek-image.oss-cn-beijing.aliyuncs.com/img/20190720145906.png)
+![](http://cdn1.iamyu.top/20190720145906.png)
 
 ## 页面流程分析总结
 
