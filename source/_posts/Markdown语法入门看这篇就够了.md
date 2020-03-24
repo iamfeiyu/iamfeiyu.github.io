@@ -1,6 +1,5 @@
 ---
 title: Markdown语法入门看这篇就够了
-urlname: Markdown语法入门看这篇就够了
 categories:
   - 技能
   - Markdown

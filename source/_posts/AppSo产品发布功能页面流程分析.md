@@ -1,6 +1,5 @@
 ---
 title: AppSo产品发布功能页面流程分析
-urlname: AppSo产品发布功能页面流程分析
 categories:
   - 产品经理
 tags:

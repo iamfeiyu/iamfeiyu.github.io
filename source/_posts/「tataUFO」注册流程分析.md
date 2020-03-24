@@ -1,6 +1,5 @@
 ---
 title: 「tataUFO」注册流程分析
-urlname: 「tataUFO」注册流程分析
 categories:
   - 产品经理
 tags:
