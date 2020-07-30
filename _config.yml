@@ -3,6 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
+<<<<<<< HEAD
 title: feiyu's blog | VolitantFish
 subtitle: 如何串联已有认知来服务新需求，是我一直关注的，并且这过程让我乐此不疲。
 description: feiyu's blog
@@ -28,6 +29,22 @@ abbrlink:
 # 下面两行是默认设置
 #permalink: :year/:month/:day/:title/
 #permalink_defaults:
+=======
+title: Hexo
+subtitle: ''
+description: ''
+keywords:
+author: John Doe
+language: en
+timezone: ''
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://yoursite.com
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+>>>>>>> d5c0ef9080033f24e27e4916a0eea2d5f0286699
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
@@ -109,14 +126,22 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+<<<<<<< HEAD
 theme: hexo-theme-next-8.0.0-rc.4
+=======
+theme: landscape
+>>>>>>> d5c0ef9080033f24e27e4916a0eea2d5f0286699
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
+<<<<<<< HEAD
   type: git
   repo: https://github.com/iamfeiyu/iamfeiyu.github.io.git
   branch: master
   message: "Updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
   user: iamfeiyu
   email: dhydghdq@outlook.com
+=======
+  type: ''
+>>>>>>> d5c0ef9080033f24e27e4916a0eea2d5f0286699
