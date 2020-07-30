@@ -3,11 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-<<<<<<< HEAD
 title: feiyu's blog | VolitantFish
-subtitle: ÈçºÎ´®ÁªÒÑÓÐÈÏÖªÀ´·þÎñÐÂÐèÇó£¬ÊÇÎÒÒ»Ö±¹Ø×¢µÄ£¬²¢ÇÒÕâ¹ý³ÌÈÃÎÒÀÖ´Ë²»Æ£¡£
+subtitle: å¦‚ä½•ä¸²è”å·²æœ‰è®¤çŸ¥æ¥æœåŠ¡æ–°éœ€æ±‚ï¼Œæ˜¯æˆ‘ä¸€ç›´å…³æ³¨çš„ï¼Œå¹¶ä¸”è¿™è¿‡ç¨‹è®©æˆ‘ä¹æ­¤ä¸ç–²ã€‚
 description: feiyu's blog
-keywords: ²©¿Í, blog, feiyu, iamfeiyu
+keywords: åšå®¢, blog, feiyu, iamfeiyu
 author: feiyu
 language: zh-CN
 timezone: ''
@@ -17,34 +16,18 @@ timezone: ''
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://www.iamfeiyu.top          # url: https://iamfeiyu.github.io
 root: /
-# ÏÂÃæËÄÐÐÊÇÎÄÕÂÓÀ¾ÃÁ´½Ó£º·½°¸¶þµÄÉèÖÃ
+# ä¸‹é¢å››è¡Œæ˜¯æ–‡ç« æ°¸ä¹…é“¾æŽ¥ï¼šæ–¹æ¡ˆäºŒçš„è®¾ç½®
 permalink: posts/:abbrlink.html
 abbrlink:
-  alg: crc32  # Ëã·¨£ºcrc16(default) and crc32
-  rep: hex    # ½øÖÆ£ºdec(default) and hex
-# ÏÂÃæÈýÐÐÊÇÎÄÕÂÓÀ¾ÃÁ´½Ó£º·½°¸Ò»µÄÉèÖÃ
+  alg: crc32  # ç®—æ³•ï¼šcrc16(default) and crc32
+  rep: hex    # è¿›åˆ¶ï¼šdec(default) and hex
+# ä¸‹é¢ä¸‰è¡Œæ˜¯æ–‡ç« æ°¸ä¹…é“¾æŽ¥ï¼šæ–¹æ¡ˆä¸€çš„è®¾ç½®
 # permalink: posts/:urlname/
 # permalink_defaults: 
 #   urlname: index
-# ÏÂÃæÁ½ÐÐÊÇÄ¬ÈÏÉèÖÃ
+# ä¸‹é¢ä¸¤è¡Œæ˜¯é»˜è®¤è®¾ç½®
 #permalink: :year/:month/:day/:title/
 #permalink_defaults:
-=======
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
-
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
->>>>>>> d5c0ef9080033f24e27e4916a0eea2d5f0286699
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
@@ -126,22 +109,14 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-<<<<<<< HEAD
 theme: hexo-theme-next-8.0.0-rc.4
-=======
-theme: landscape
->>>>>>> d5c0ef9080033f24e27e4916a0eea2d5f0286699
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-<<<<<<< HEAD
   type: git
   repo: https://github.com/iamfeiyu/iamfeiyu.github.io.git
   branch: master
   message: "Updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
   user: iamfeiyu
   email: dhydghdq@outlook.com
-=======
-  type: ''
->>>>>>> d5c0ef9080033f24e27e4916a0eea2d5f0286699
