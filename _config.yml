@@ -120,3 +120,31 @@ deploy:
   message: "Updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
   user: iamfeiyu
   email: dhydghdq@outlook.com
+
+# 设置Hexo支持aplayer音乐播放器（支持Meting，解析中国各大音乐平台接口）
+aplayer:
+  meting: true         # Meting support, default: false
+# ---------------------------------------------------------------
+# Next主题的配置项
+# ---------------------------------------------------------------
+theme_config:
+  # ---------------------------------------------------------------
+  # Menu Settings
+  # ---------------------------------------------------------------
+
+  # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash from link value (/archives -> archives).
+  # Usage: `Key: /link/ || icon`
+  # Key is the name of menu item. If the translation for this item is available, the translated text will be loaded, otherwise the Key name will be used. Key is case-senstive.
+  # Value before `||` delimeter is the target link.
+  # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
+  # External url should start with http:// or https://
+  menu:
+    home: / || home
+    archives: /archives/ || archive
+    categories: /categories/ || th
+    tags: /tags/ || tags
+    playlist: /playlist/ || music
+    about: /about/ || user
+    #schedule: /schedule/ || calendar
+    #sitemap: /sitemap.xml || sitemap
+    #commonweal: /404/ || heartbeat
