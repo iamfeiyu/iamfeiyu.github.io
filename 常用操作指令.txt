@@ -33,7 +33,7 @@ $ hexo d
 
 ```
 # 标准参数启动服务器，生成和部署
-hexo clean && hexo g -d
+hexo clean && hexo g && hexo d
 ```
 
 ```
