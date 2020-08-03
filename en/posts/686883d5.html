@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en,zh-CN,default">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/en/uploads/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/en/uploads/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/en/uploads/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/en/uploads/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/en/css/main.css">
+
+
+<link rel="stylesheet" href="/en/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"www.iamfeiyu.top","root":"/en/","scheme":"Gemini","version":"8.0.0-rc.4","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":true,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"prism":false,"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="调研说明调研目的： 作为微信读书的产品实习生，调研一下竞争对手「网易蜗牛读书」写书评的功能，了解为什么会上线该功能，了解该功能具体被怎么使用，并给出自己的调研分析结论。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="「网易蜗牛读书」写书评功能调研报告">
+<meta property="og:url" content="https://www.iamfeiyu.top/posts/686883d5.html">
+<meta property="og:site_name" content="feiyu&#39;s blog | VolitantFish">
+<meta property="og:description" content="调研说明调研目的： 作为微信读书的产品实习生，调研一下竞争对手「网易蜗牛读书」写书评的功能，了解为什么会上线该功能，了解该功能具体被怎么使用，并给出自己的调研分析结论。">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://cdn1.iamyu.top/20190720144329.png">
+<meta property="og:image" content="http://cdn1.iamyu.top/20190720145526.png">
+<meta property="og:image" content="http://cdn1.iamyu.top/20190720145631.png">
+<meta property="og:image" content="http://cdn1.iamyu.top/20190720145704.png">
+<meta property="article:published_time" content="2019-04-09T13:23:25.000Z">
+<meta property="article:modified_time" content="2020-08-03T20:20:42.399Z">
+<meta property="article:author" content="feiyu">
+<meta property="article:tag" content="产品感">
+<meta property="article:tag" content="功能调研">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://cdn1.iamyu.top/20190720144329.png">
+
+<link rel="canonical" href="https://www.iamfeiyu.top/posts/686883d5.html">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'en'
+  };
+</script>
+
+  <title>「网易蜗牛读书」写书评功能调研报告 | feiyu's blog | VolitantFish</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <main class="main">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+        <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+        <span class="toggle-line toggle-line-first"></span>
+        <span class="toggle-line toggle-line-middle"></span>
+        <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/en/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">feiyu's blog | VolitantFish</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">How to connect existing knowledge to serve new needs is something I have been paying attention to, and this process keeps me happy.</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/en/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/en/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/en/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">5</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/en/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">4</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/en/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">5</span></a>
+
+  </li>
+        <li class="menu-item menu-item-playlist">
+
+    <a href="/en/playlist/" rel="section"><i class="fas fa-headphones fa-fw"></i>歌单</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <section class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B0%83%E7%A0%94%E8%AF%B4%E6%98%8E"><span class="nav-number">1.</span> <span class="nav-text">调研说明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D"><span class="nav-number">2.</span> <span class="nav-text">产品介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F"><span class="nav-number">3.</span> <span class="nav-text">用户画像</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%80%8C%E5%86%99%E4%B9%A6%E8%AF%84%E3%80%8D%E5%8A%9F%E8%83%BD%E5%88%86%E6%9E%90"><span class="nav-number">4.</span> <span class="nav-text">「写书评」功能分析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E8%AE%BA"><span class="nav-number">5.</span> <span class="nav-text">结论</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">6.</span> <span class="nav-text">总结</span></a></li></ol></div>
+      </section>
+      <!--/noindex-->
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="feiyu"
+      src="/en/uploads/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">feiyu</p>
+  <div class="site-description" itemprop="description">feiyu's blog</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/en/archives/">
+        
+          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/en/categories/">
+          
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/en/tags/">
+          
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/iamfeiyu" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;iamfeiyu" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:emailFeiyu@163.com" title="E-Mail → mailto:emailFeiyu@163.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+      Links
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://uzer.me/u/signin" title="https:&#x2F;&#x2F;uzer.me&#x2F;u&#x2F;signin" rel="noopener" target="_blank">UZER.ME</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://daohangwan.com/board/bq2d" title="http:&#x2F;&#x2F;daohangwan.com&#x2F;board&#x2F;bq2d" rel="noopener" target="_blank">导航湾</a>
+        </li>
+    </ul>
+  </div>
+
+      </section>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </header>
+
+      
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div id="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+      <div class="main-inner">
+        
+
+        <div class="content post posts-expand">
+          
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://www.iamfeiyu.top/posts/686883d5.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/en/uploads/images/avatar.jpg">
+      <meta itemprop="name" content="feiyu">
+      <meta itemprop="description" content="feiyu's blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="feiyu's blog | VolitantFish">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          「网易蜗牛读书」写书评功能调研报告
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-04-09 21:23:25" itemprop="dateCreated datePublished" datetime="2019-04-09T21:23:25+08:00">2019-04-09</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/en/categories/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/" itemprop="url" rel="index"><span itemprop="name">产品经理</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">评论: </span>
+    
+    <a title="valine" href="/en/posts/686883d5.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/en/posts/686883d5.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>1.4k</span>
+            </span>
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              <span>2 mins.</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="调研说明"><a href="#调研说明" class="headerlink" title="调研说明"></a>调研说明</h2><p><strong>调研目的：</strong></p>
+<p>作为微信读书的产品实习生，调研一下竞争对手「网易蜗牛读书」写书评的功能，了解为什么会上线该功能，了解该功能具体被怎么使用，并给出自己的调研分析结论。 </p>
+<a id="more"></a>
+
+<p><strong>测试环境说明：</strong></p>
+<p>手机设备：华为荣耀7X</p>
+<p>软件版本：v1.8.3</p>
+<blockquote>
+<p><strong>补充：</strong></p>
+<p>1.6.0 版本更新中，产品对阅读入口进行了调整。新的入口为：</p>
+<ol>
+<li>写书评的常规入口有：领读，我的，书籍详情页“推荐”模块下方的「我要写书评」文本框</li>
+<li>需要深入体验才会有的入口：书籍阅读过程中，点击右上角“菜单”，弹出的窗口中</li>
+</ol>
+</blockquote>
+<h2 id="产品介绍"><a href="#产品介绍" class="headerlink" title="产品介绍"></a>产品介绍</h2><p>​       <strong>一句话概括：</strong>「网易蜗牛读书」是网易出品的读书App，专注于精品正版书的深度阅读，以阅读时长为收费册率，每天可免费阅读1小时，倡议重度读书者围绕某一主题写书评，以此推荐书单，来吸引浅度阅读者深入阅读。</p>
+<h2 id="用户画像"><a href="#用户画像" class="headerlink" title="用户画像"></a>用户画像</h2><p>数据来自：艾瑞App指数</p>
+<p><img src="http://cdn1.iamyu.top/20190720144329.png"></p>
+<p>由上图可知，目标用户中女性多于男性；从年龄来看，主要用户为40以前的轻中年人群，其中伴随互联网成长起来90后是最主要的用户人群；从地域角度看，用户主要分布在山东、江苏和广州等东边和东南边的沿海城市。</p>
+<h2 id="「写书评」功能分析"><a href="#「写书评」功能分析" class="headerlink" title="「写书评」功能分析"></a>「写书评」功能分析</h2><p><strong>从用户-场景-需求分析：</strong></p>
+<p><img src="http://cdn1.iamyu.top/20190720145526.png"></p>
+<p><strong>领读人</strong>，作为优质领读信息流，优秀书评人，为普通用户推荐书单，帮助普通用户快速找到自己感兴趣的书籍。</p>
+<p><strong>普通用户</strong>，在App中获得阅读书籍的基础体验后，还能获得由自己喜欢领域的前辈的指引，这解决了读书周期长，找书难，找同类书更难的问题。</p>
+<p><strong>运营人员</strong>，通过推荐书评，吸引普通用户阅读，解决留存，还通过分享，来实现了拉新的目的。</p>
+<p><strong>从「写书评」的业务逻辑分析：</strong></p>
+<p><img src="http://cdn1.iamyu.top/20190720145631.png"></p>
+<p>可以看到，单就「写书评」这个功能在App中就已经形成了一个闭环，这个闭环得形成，不仅可促成目标用户中，深度用户和浮浅用户之间互动，促进浮浅用户向深度用户的转化；而且随着时间的推移，将在App中沉淀出有价值的内容和核心种子群体，增加用户的黏性。这是个一石两鸟的策略。</p>
+<p><strong>从「写书评」业务流程分析：</strong></p>
+<p><img src="http://cdn1.iamyu.top/20190720145704.png"></p>
+<p>从功能流程图来看，网易蜗牛读书App充分考虑到了用户体验，对用户写书评这个任务提供了完整的所需小功能，如插入推荐书籍，推荐批注，图片等，对异常判断的顺序设置的非常合理，对异常判断和处理也非常周全。</p>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>网易蜗牛读书App中的「写书评」功能应该是软件的灵魂，它将对App中的书籍资源的价值进行的充分的挖掘，通过「写书评」功能产出了非常有价值的书评，给读者带来了极好的读书体验。可以在书评评论区中体会到，用户对于书评提供的益处很是褒奖，赢得可极大人群的欢迎。综合来看，写书评这个功能设置方面充分考虑到了用户体验和完整性，同时，写书评功能还给普通用户解决困扰已久的读书问题，比如不知道读什么书，读了后找不到重点是什么，所读领域书籍之间不同点是什么等等难题。该功能还提供了互评、点赞等互动，促进了「写书评」这个功能在用户间地良性闭环。通过运营人员有意识的，推荐优质书评，和奖励领读人，让这个闭环显得更加完整了。这个闭环地形成，充分调动了深度用户与浮浅用户之间的交流，与信息转换，让读书变得更加意味深长了。「写书评」功能真的很棒。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这一次的作业的主要目的是调研网易蜗牛读书App的「写书评」功能，学习并练习如何进行一次闭环的功能调研。从中体会到，功能的调研不能局限在这个功能，要从认识这个产品开始，再深入到该功能的业务逻辑，用户操作流程和用户体验，最后再回到产品，分析该功能在产品中存在的意义和重要程度。</p>
+<p>经过如此分析的过程，才能全面的认识这个功能，回答，这个功能是做什么的，在这个产品中为什么会有这个功能。</p>
+
+    </div>
+
+    
+    
+    
+    
+    
+    <div>
+        
+            	
+	    <div style="padding-bottom:30px"></div>
+	    <div>
+	        <div style="text-align:center;color: #ccc;font-size:22px;">
+	        <span>-------------</span>
+	        <span>本 文 结 束 <i class="fa fa-bell"></i> 感 谢 您 的 阅 读</span>
+	        <span>-------------<span>
+	        </div>
+	    </div>
+	
+        
+    </div>
+        <div class="reward-container">
+  <div>鼓励我继续创作吧！</div>
+  <button onclick="document.getElementById('post-reward').classList.toggle('active');">
+    Donate
+  </button>
+  <div id="post-reward">
+      
+      <div>
+        <img src="/en/uploads/images/wechatpay.jpg" alt="feiyu WeChat Pay">
+        <p>WeChat Pay</p>
+      </div>
+      
+      <div>
+        <img src="/en/uploads/images/alipay.jpg" alt="feiyu Alipay">
+        <p>Alipay</p>
+      </div>
+
+  </div>
+</div>
+
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:  </strong>feiyu
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link: </strong>
+    <a href="https://www.iamfeiyu.top/posts/686883d5.html" title="「网易蜗牛读书」写书评功能调研报告">https://www.iamfeiyu.top/posts/686883d5.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa%204.0/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA 4.0</a> unless stating additionally.
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/en/tags/%E4%BA%A7%E5%93%81%E6%84%9F/" rel="tag"><i class="fa fa-tag"></i> 产品感</a>
+              <a href="/en/tags/%E5%8A%9F%E8%83%BD%E8%B0%83%E7%A0%94/" rel="tag"><i class="fa fa-tag"></i> 功能调研</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/en/posts/3c1dfcc0.html" rel="prev" title="AppSo产品发布功能页面流程分析">
+      <i class="fa fa-chevron-left"></i> AppSo产品发布功能页面流程分析
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+        </div>
+        
+    <div class="comments" id="valine-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+  <div class="languages">
+    <label class="lang-select-label">
+      <i class="fa fa-language"></i>
+      <span>English</span>
+      <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </label>
+    <select class="lang-select" data-canonical="">
+      
+        <option value="en" data-href="/en/posts/686883d5.html" selected="">
+          English
+        </option>
+      
+        <option value="zh-CN" data-href="/en/zh-CN/posts/686883d5.html" selected="">
+          简体中文
+        </option>
+      
+    </select>
+  </div>
+
+        
+  <div class="beian"><a href="http://www.beian.miit.gov.cn/" rel="noopener" target="_blank">Beijing ICP No. 20000086-1 </a>
+  </div>
+
+<div class="copyright">
+  
+  &copy; 2018 – 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">feiyu</span>
+</div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="Total Visitors">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="Total Views">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/en/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="/en/lib/velocity/velocity.min.js"></script>
+  <script src="/en/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/en/js/utils.js"></script>
+
+<script src="/en/js/motion.js"></script>
+
+
+<script src="/en/js/next-boot.js"></script>
+
+
+  
+
+
+
+
+  
+<script src="/en/js/local-search.js"></script>
+
+
+
+
+  <script>
+    (function(d, w, c) {
+      w.ChatraID = 'jwWsuJwpYDvxj4tWm';
+      var s = d.createElement('script');
+      w[c] = w[c] || function() {
+        (w[c].q = w[c].q || []).push(arguments);
+      };
+      s.async = true;
+      s.src = 'https://call.chatra.io/chatra.js';
+      if (d.head) d.head.appendChild(s);
+    })(document, window, 'Chatra');
+  </script>
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js', () => {
+    new Valine(Object.assign({
+      el  : '#valine-comments',
+      path: location.pathname,
+    }, {"enable":true,"appId":"U5jhDTHQmUnQvv9GDygGvqgn-gzGzoHsz","appKey":"mIxFAxpbDTwh1WObEoBtG5a0","placeholder":"有朋自远方来，不亦说乎！","avatar":"monsterid","meta":["nick","mail","link"],"pageSize":5,"language":"zh-cn","visitor":false,"comment_count":false,"recordIP":false,"serverURLs":null}
+    ));
+  }, window.Valine);
+});
+</script>
+
+</body>
+</html>
