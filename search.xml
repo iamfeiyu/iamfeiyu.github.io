@@ -168,25 +168,6 @@
       </tags>
   </entry>
   <entry>
-    <title>「tataUFO」注册流程分析</title>
-    <url>/posts/f872f4a9.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>通过流程来认识产品是个有效的方法 </p>
-<h2 id="测试环境"><a href="#测试环境" class="headerlink" title="测试环境"></a>测试环境</h2><p>软件版本：v6.8.7</p>
-<p>手机：华为荣耀7X</p>
-<a id="more"></a>
-
-<h2 id="业务流程图"><a href="#业务流程图" class="headerlink" title="业务流程图"></a>业务流程图</h2><p><img src="http://cdn1.iamyu.top/20190720145743.png"></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>着眼从细节，测试功能操作流程中的每个细节，让我收获了更多的体验和感受，深刻体会到，要想获得产品感，就要深入进去分析功能流程及细节。</p>
-]]></content>
-      <categories>
-        <category>产品经理</category>
-      </categories>
-      <tags>
-        <tag>产品感</tag>
-        <tag>分析报告</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>「网易蜗牛读书」写书评功能调研报告</title>
     <url>/posts/686883d5.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="调研说明"><a href="#调研说明" class="headerlink" title="调研说明"></a>调研说明</h2><p><strong>调研目的：</strong></p>
@@ -229,6 +210,25 @@
       <tags>
         <tag>产品感</tag>
         <tag>功能调研</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「tataUFO」注册流程分析</title>
+    <url>/posts/f872f4a9.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>通过流程来认识产品是个有效的方法 </p>
+<h2 id="测试环境"><a href="#测试环境" class="headerlink" title="测试环境"></a>测试环境</h2><p>软件版本：v6.8.7</p>
+<p>手机：华为荣耀7X</p>
+<a id="more"></a>
+
+<h2 id="业务流程图"><a href="#业务流程图" class="headerlink" title="业务流程图"></a>业务流程图</h2><p><img src="http://cdn1.iamyu.top/20190720145743.png"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>着眼从细节，测试功能操作流程中的每个细节，让我收获了更多的体验和感受，深刻体会到，要想获得产品感，就要深入进去分析功能流程及细节。</p>
+]]></content>
+      <categories>
+        <category>产品经理</category>
+      </categories>
+      <tags>
+        <tag>产品感</tag>
+        <tag>分析报告</tag>
       </tags>
   </entry>
 </search>
