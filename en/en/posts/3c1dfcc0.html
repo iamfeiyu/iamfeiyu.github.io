@@ -21,23 +21,24 @@
     var CONFIG = {"hostname":"www.iamfeiyu.top","root":"/en/","scheme":"Gemini","version":"8.0.0-rc.4","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":true,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"prism":false,"path":"search.xml"};
   </script>
 
-  <meta name="description" content="前言通过流程来认识产品是个有效的方法  测试环境软件版本：v6.8.7 手机：华为荣耀7X">
+  <meta name="description" content="目的体验发布产品到「AppWall」的功能，梳理整个体验的页面流程。 发布功能业务流程图体验发布产品到「AppWall」的功能：体验整个功能逻辑：点击发布——搜索app——编写内容——等待审核——发布成功">
 <meta property="og:type" content="article">
-<meta property="og:title" content="「tataUFO」注册流程分析">
-<meta property="og:url" content="https://www.iamfeiyu.top/posts/f872f4a9.html">
+<meta property="og:title" content="AppSo产品发布功能页面流程分析">
+<meta property="og:url" content="https://www.iamfeiyu.top/en/posts/3c1dfcc0.html">
 <meta property="og:site_name" content="feiyu&#39;s blog | VolitantFish">
-<meta property="og:description" content="前言通过流程来认识产品是个有效的方法  测试环境软件版本：v6.8.7 手机：华为荣耀7X">
+<meta property="og:description" content="目的体验发布产品到「AppWall」的功能，梳理整个体验的页面流程。 发布功能业务流程图体验发布产品到「AppWall」的功能：体验整个功能逻辑：点击发布——搜索app——编写内容——等待审核——发布成功">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://cdn1.iamyu.top/20190720145743.png">
-<meta property="article:published_time" content="2019-03-29T12:11:28.000Z">
-<meta property="article:modified_time" content="2020-08-03T20:20:42.398Z">
+<meta property="og:image" content="http://cdn1.iamyu.top/20190720145823.png">
+<meta property="og:image" content="http://cdn1.iamyu.top/20190720145906.png">
+<meta property="article:published_time" content="2019-04-02T11:19:36.000Z">
+<meta property="article:modified_time" content="2020-08-03T20:20:42.394Z">
 <meta property="article:author" content="feiyu">
 <meta property="article:tag" content="产品感">
-<meta property="article:tag" content="分析报告">
+<meta property="article:tag" content="流程分析">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://cdn1.iamyu.top/20190720145743.png">
+<meta name="twitter:image" content="http://cdn1.iamyu.top/20190720145823.png">
 
-<link rel="canonical" href="https://www.iamfeiyu.top/posts/f872f4a9.html">
+<link rel="canonical" href="https://www.iamfeiyu.top/en/posts/3c1dfcc0.html">
 
 
 <script id="page-configurations">
@@ -50,7 +51,7 @@
   };
 </script>
 
-  <title>「tataUFO」注册流程分析 | feiyu's blog | VolitantFish</title>
+  <title>AppSo产品发布功能页面流程分析 | feiyu's blog | VolitantFish</title>
   
 
 
@@ -155,7 +156,7 @@
   </li>
         <li class="menu-item menu-item-playlist">
 
-    <a href="/en/playlist/" rel="section"><i class="fas fa-headphones fa-fw"></i>歌单</a>
+    <a href="/en/playlist/" rel="section"><i class="fas fa-headphones fa-fw"></i>Playlist</a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -214,7 +215,7 @@
 
       <!--noindex-->
       <section class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83"><span class="nav-number">2.</span> <span class="nav-text">测试环境</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%9A%E5%8A%A1%E6%B5%81%E7%A8%8B%E5%9B%BE"><span class="nav-number">3.</span> <span class="nav-text">业务流程图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">4.</span> <span class="nav-text">总结</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%AE%E7%9A%84"><span class="nav-number">1.</span> <span class="nav-text">目的</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%91%E5%B8%83%E5%8A%9F%E8%83%BD%E4%B8%9A%E5%8A%A1%E6%B5%81%E7%A8%8B%E5%9B%BE"><span class="nav-number">2.</span> <span class="nav-text">发布功能业务流程图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%91%E5%B8%83%E5%8A%9F%E8%83%BD%E9%A1%B5%E9%9D%A2%E6%B5%81%E7%A8%8B%E5%9B%BE"><span class="nav-number">3.</span> <span class="nav-text">发布功能页面流程图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A1%B5%E9%9D%A2%E6%B5%81%E7%A8%8B%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93"><span class="nav-number">4.</span> <span class="nav-text">页面流程分析总结</span></a></li></ol></div>
       </section>
       <!--/noindex-->
 
@@ -302,7 +303,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://www.iamfeiyu.top/posts/f872f4a9.html">
+    <link itemprop="mainEntityOfPage" href="https://www.iamfeiyu.top/en/posts/3c1dfcc0.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/en/uploads/images/avatar.jpg">
@@ -315,7 +316,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          「tataUFO」注册流程分析
+          AppSo产品发布功能页面流程分析
         </h1>
 
         <div class="post-meta">
@@ -325,7 +326,7 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              <time title="Created: 2019-03-29 20:11:28" itemprop="dateCreated datePublished" datetime="2019-03-29T20:11:28+08:00">2019-03-29</time>
+              <time title="Created: 2019-04-02 19:19:36" itemprop="dateCreated datePublished" datetime="2019-04-02T19:19:36+08:00">2019-04-02</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -353,8 +354,8 @@
       </span>
       <span class="post-meta-item-text">评论: </span>
     
-    <a title="valine" href="/en/posts/f872f4a9.html#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/en/posts/f872f4a9.html" itemprop="commentCount"></span>
+    <a title="valine" href="/en/en/posts/3c1dfcc0.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/en/en/posts/3c1dfcc0.html" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -364,7 +365,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>114</span>
+              <span>284</span>
             </span>
             <span class="post-meta-item" title="Reading time">
               <span class="post-meta-item-icon">
@@ -383,13 +384,19 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>通过流程来认识产品是个有效的方法 </p>
-<h2 id="测试环境"><a href="#测试环境" class="headerlink" title="测试环境"></a>测试环境</h2><p>软件版本：v6.8.7</p>
-<p>手机：华为荣耀7X</p>
+        <h2 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h2><p>体验发布产品到「AppWall」的功能，梳理整个体验的页面流程。</p>
+<h2 id="发布功能业务流程图"><a href="#发布功能业务流程图" class="headerlink" title="发布功能业务流程图"></a>发布功能业务流程图</h2><p>体验发布产品到「AppWall」的功能：体验整个功能逻辑：点击发布——搜索app——编写内容——等待审核——发布成功</p>
 <a id="more"></a>
 
-<h2 id="业务流程图"><a href="#业务流程图" class="headerlink" title="业务流程图"></a>业务流程图</h2><p><img src="http://cdn1.iamyu.top/20190720145743.png"></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>着眼从细节，测试功能操作流程中的每个细节，让我收获了更多的体验和感受，深刻体会到，要想获得产品感，就要深入进去分析功能流程及细节。</p>
+<p>下面是「发布」功能的业务流程图：</p>
+<p><img src="http://cdn1.iamyu.top/20190720145823.png"></p>
+<h2 id="发布功能页面流程图"><a href="#发布功能页面流程图" class="headerlink" title="发布功能页面流程图"></a>发布功能页面流程图</h2><p>下面是根据发布功能业务流程图制作的页面流程图：</p>
+<p><img src="http://cdn1.iamyu.top/20190720145906.png"></p>
+<h2 id="页面流程分析总结"><a href="#页面流程分析总结" class="headerlink" title="页面流程分析总结"></a>页面流程分析总结</h2><ul>
+<li>页面流程图的绘制基于业务流程图来制作，思路会更清晰；</li>
+<li>在页面流程图的绘制过程中，先考虑主页面的流程，其次考虑分支页面或次级页面，最后补充异常流程和异常提示；</li>
+<li>在页面流程图的制作中主要考虑页面级别的信息，不要过多涉及其他次级信息，否自会导致页面流程图过于臃肿。</li>
+</ul>
 
     </div>
 
@@ -405,7 +412,7 @@
 	    <div>
 	        <div style="text-align:center;color: #ccc;font-size:22px;">
 	        <span>-------------</span>
-	        <span>本 文 结 束 <i class="fa fa-bell"></i> 感 谢 您 的 阅 读</span>
+	        <span> End of this article <i class="fa fa-bell"></i> Thank you for reading </span>
 	        <span>-------------<span>
 	        </div>
 	    </div>
@@ -413,7 +420,7 @@
         
     </div>
         <div class="reward-container">
-  <div>鼓励我继续创作吧！</div>
+  <div>Encourage me to continue creating!</div>
   <button onclick="document.getElementById('post-reward').classList.toggle('active');">
     Donate
   </button>
@@ -441,7 +448,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>Post link: </strong>
-    <a href="https://www.iamfeiyu.top/posts/f872f4a9.html" title="「tataUFO」注册流程分析">https://www.iamfeiyu.top/posts/f872f4a9.html</a>
+    <a href="https://www.iamfeiyu.top/en/posts/3c1dfcc0.html" title="AppSo产品发布功能页面流程分析">https://www.iamfeiyu.top/en/posts/3c1dfcc0.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa%204.0/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA 4.0</a> unless stating additionally.
@@ -453,7 +460,7 @@
       <footer class="post-footer">
           <div class="post-tags">
               <a href="/en/tags/%E4%BA%A7%E5%93%81%E6%84%9F/" rel="tag"><i class="fa fa-tag"></i> 产品感</a>
-              <a href="/en/tags/%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A/" rel="tag"><i class="fa fa-tag"></i> 分析报告</a>
+              <a href="/en/tags/%E6%B5%81%E7%A8%8B%E5%88%86%E6%9E%90/" rel="tag"><i class="fa fa-tag"></i> 流程分析</a>
           </div>
 
         
@@ -462,12 +469,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/en/posts/6cc5b559.html" rel="prev" title="QQ、微信、新浪「内容发布」功能对比分析报告">
-      <i class="fa fa-chevron-left"></i> QQ、微信、新浪「内容发布」功能对比分析报告
+    <a href="/en/en/posts/f872f4a9.html" rel="prev" title="「tataUFO」注册流程分析">
+      <i class="fa fa-chevron-left"></i> 「tataUFO」注册流程分析
     </a></div>
       <div class="post-nav-item">
-    <a href="/en/posts/3c1dfcc0.html" rel="next" title="AppSo产品发布功能页面流程分析">
-      AppSo产品发布功能页面流程分析 <i class="fa fa-chevron-right"></i>
+    <a href="/en/en/posts/686883d5.html" rel="next" title="「网易蜗牛读书」写书评功能调研报告">
+      「网易蜗牛读书」写书评功能调研报告 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -519,11 +526,11 @@
     </label>
     <select class="lang-select" data-canonical="">
       
-        <option value="en" data-href="/en/posts/f872f4a9.html" selected="">
+        <option value="en" data-href="/en/posts/3c1dfcc0.html" selected="">
           English
         </option>
       
-        <option value="zh-CN" data-href="/en/zh-CN/posts/f872f4a9.html" selected="">
+        <option value="zh-CN" data-href="/en/zh-CN/posts/3c1dfcc0.html" selected="">
           简体中文
         </option>
       

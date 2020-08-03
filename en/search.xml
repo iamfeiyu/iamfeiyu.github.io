@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>AppSo产品发布功能页面流程分析</title>
-    <url>/en/posts/3c1dfcc0.html</url>
+    <url>/en/en/posts/3c1dfcc0.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\en\assets\css\APlayer.min.css"><script src="\en\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\en\assets\js\Meting.min.js"></script><h2 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h2><p>体验发布产品到「AppWall」的功能，梳理整个体验的页面流程。</p>
 <h2 id="发布功能业务流程图"><a href="#发布功能业务流程图" class="headerlink" title="发布功能业务流程图"></a>发布功能业务流程图</h2><p>体验发布产品到「AppWall」的功能：体验整个功能逻辑：点击发布——搜索app——编写内容——等待审核——发布成功</p>
 <a id="more"></a>
@@ -27,7 +27,7 @@
   </entry>
   <entry>
     <title>Markdown语法入门看这篇就够了</title>
-    <url>/en/posts/9a4229e7.html</url>
+    <url>/en/en/posts/9a4229e7.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\en\assets\css\APlayer.min.css"><script src="\en\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\en\assets\js\Meting.min.js"></script><h2 id="标准Markdown语法"><a href="#标准Markdown语法" class="headerlink" title="标准Markdown语法"></a>标准Markdown语法</h2><h3 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h3><blockquote>
 <p>这个文档本身就是使用Markdown编写的。<br>Markdown编辑器允许你通过编写易读、易写的富文本格式，然后很方便就可以转换成有效的HTML。</p>
 </blockquote>
@@ -106,7 +106,7 @@
   </entry>
   <entry>
     <title>QQ、微信、新浪「内容发布」功能对比分析报告</title>
-    <url>/en/posts/6cc5b559.html</url>
+    <url>/en/en/posts/6cc5b559.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\en\assets\css\APlayer.min.css"><script src="\en\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\en\assets\js\Meting.min.js"></script><h2 id="背景及目的"><a href="#背景及目的" class="headerlink" title="背景及目的"></a>背景及目的</h2><p>随着国内互联网的发展、产品同质化严重，越来越多的产品选择加入了社交功能，试图以此增强用户粘性。社交功能最核心的功能之一便是个人内容分享，如果能够搭建起完善的内容互动机制（生态），这势必会形成产品的两点与核心竞争力（壁垒）。而这一切的起点，来源于「内容发布」。</p>
 <a id="more"></a>
 
@@ -169,7 +169,7 @@
   </entry>
   <entry>
     <title>「tataUFO」注册流程分析</title>
-    <url>/en/posts/f872f4a9.html</url>
+    <url>/en/en/posts/f872f4a9.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\en\assets\css\APlayer.min.css"><script src="\en\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\en\assets\js\Meting.min.js"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>通过流程来认识产品是个有效的方法 </p>
 <h2 id="测试环境"><a href="#测试环境" class="headerlink" title="测试环境"></a>测试环境</h2><p>软件版本：v6.8.7</p>
 <p>手机：华为荣耀7X</p>
@@ -188,7 +188,7 @@
   </entry>
   <entry>
     <title>「网易蜗牛读书」写书评功能调研报告</title>
-    <url>/en/posts/686883d5.html</url>
+    <url>/en/en/posts/686883d5.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\en\assets\css\APlayer.min.css"><script src="\en\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\en\assets\js\Meting.min.js"></script><h2 id="调研说明"><a href="#调研说明" class="headerlink" title="调研说明"></a>调研说明</h2><p><strong>调研目的：</strong></p>
 <p>作为微信读书的产品实习生，调研一下竞争对手「网易蜗牛读书」写书评的功能，了解为什么会上线该功能，了解该功能具体被怎么使用，并给出自己的调研分析结论。 </p>
 <a id="more"></a>
