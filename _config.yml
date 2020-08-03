@@ -225,7 +225,7 @@ theme_config:
       color: "#ff0000"
 
     # If not defined, `author` from Hexo `_config.yml` will be used.
-    copyright: feiyu 版权所有
+    copyright: feiyu
 
     # Powered by Hexo & NexT
     powered: false
@@ -235,11 +235,11 @@ theme_config:
       enable: true
       icp: 京ICP备20000086号-1
       # The digit in the num of gongan beian.
-      gongan_id: 1102002004052
+      gongan_id:
       # The full num of gongan beian.
-      gongan_num: 京公网安备1102002004052号
+      gongan_num:
       # The icon for gongan beian. See: http://www.beian.gov.cn/portal/download
-      gongan_icon_url: uploads/images/beian.png
+      gongan_icon_url:
 
   # Creative Commons 4.0 International License.
   # See: https://creativecommons.org/share-your-work/licensing-types-examples
