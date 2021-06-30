@@ -8,7 +8,7 @@ tags:
 abbrlink: f872f4a9
 date: 2019-03-29 20:11:28
 ---
- 
+
 ## 前言
 
 通过流程来认识产品是个有效的方法 
@@ -23,7 +23,7 @@ date: 2019-03-29 20:11:28
 
 ## 业务流程图
 
-![](http://cdn1.iamyu.top/20190720145743.png)
+![](https://raw.githubusercontent.com/iamfeiyu/img/master/iamfeiyublog/20190720145743.png)
 
 ## 总结
 
