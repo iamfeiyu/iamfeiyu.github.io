@@ -11,7 +11,6 @@ author: feiyu
 # 多语言切换
 language:
   - zh-CN
-  - en
 timezone: ''
 
 # URL
@@ -726,7 +725,7 @@ theme_config:
     style: tabs
     # Choose a comment system to be displayed by default.
     # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-    active: valine # 来比力评论系统
+    active: # valine # 来比力评论系统
     # Setting `true` means remembering the comment system selected by the visitor.
     storage: true
     # Lazyload all comment systems.
@@ -770,7 +769,7 @@ theme_config:
   # Valine
   # For more information: https://valine.js.org, https://github.com/xCss/Valine
   valine:
-    enable: true
+    enable: false
     appId: U5jhDTHQmUnQvv9GDygGvqgn-gzGzoHsz # Your leancloud application appid
     appKey: mIxFAxpbDTwh1WObEoBtG5a0 # Your leancloud application appkey
     placeholder: 有朋自远方来，不亦说乎！ # Comment box placeholder
