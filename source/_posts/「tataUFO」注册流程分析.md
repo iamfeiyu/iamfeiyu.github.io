@@ -23,7 +23,7 @@ date: 2019-03-29 20:11:28
 
 ## 业务流程图
 
-![](https://raw.githubusercontent.com/iamfeiyu/img/master/iamfeiyublog/20190720145743.png)
+![](https://iamfeiyucdn.iamyu.top/20190720145743.png)
 
 ## 总结
 
