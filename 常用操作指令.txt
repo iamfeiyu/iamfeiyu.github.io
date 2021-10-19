@@ -41,6 +41,5 @@ hexo clean && hexo g && hexo d
 hexo clean && hexo g && hexo s
  
 
-
 # 生成静态文件后部署 
 hexo g -d
