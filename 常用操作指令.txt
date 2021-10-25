@@ -1,6 +1,7 @@
 ### git bash推送
 git push iamfeiyu hexo
 
+
 ### 中英文同时发布
 hexo clean && hexo g &&cd c://_D/GithubNative/iamfeiyu.github.io.en && hexo clean && hexo g && cd c://_D/GithubNative/iamfeiyu.github.io && cp -r c://_D/GithubNative/iamfeiyu.github.io.en/public/. c://_D/GithubNative/iamfeiyu.github.io/public/en/ && hexo d
 
