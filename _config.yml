@@ -116,11 +116,16 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/iamfeiyu/iamfeiyu.github.io.git
-  branch: master
   message: "Updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
-  user: iamfeiyu
-  email: dhydghdq@outlook.com
+  repo:
+    github: 
+      url: git@github.com:iamfeiyu/iamfeiyu.github.io.git
+      branch: master
+    gitee:
+      url: git@gitee.com:iamfeiyu/iamfeiyu.git
+      branch: master
+    
+    # url: https://oauth2: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@github.com/iamfeiyu/iamfeiyu.github.io
 
 # ==============================================================
 # hexo-tag-aplayer 设置Hexo支持aplayer音乐播放器（支持Meting，解析中国各大音乐平台接口）
