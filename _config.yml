@@ -121,9 +121,9 @@ deploy:
     github: 
       url: git@github.com:iamfeiyu/iamfeiyu.github.io.git
       branch: master
-    gitee:
-      url: git@gitee.com:iamfeiyu/iamfeiyu.git
-      branch: master
+#    gitee:
+#      url: git@gitee.com:iamfeiyu/iamfeiyu.git
+#      branch: master
     
     # url: https://oauth2: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@github.com/iamfeiyu/iamfeiyu.github.io
 
