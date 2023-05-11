@@ -9,7 +9,7 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "5.4.0"
+    "version": "5.4.2"
   },
   "dependencies": {
     "hexo": "^5.4.0",
@@ -27,7 +27,7 @@
     "hexo-symbols-count-time": "^0.7.1",
     "hexo-tag-aplayer": "^3.0.4",
     "hexo-theme-next": "^8.6.0",
-    "hexo-word-counter": "0.0.2"
+    "hexo-word-counter": "0.1.0"
   },
   "devDependencies": {
     "gulp": "^4.0.2",

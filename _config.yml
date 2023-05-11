@@ -117,10 +117,8 @@ theme: next
 deploy:
   type: git
   message: "Updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
-  repo:
-    github: 
-      url: git@github.com:iamfeiyu/iamfeiyu.github.io.git
-      branch: master
+  repo: https://github.com/iamfeiyu/iamfeiyu.github.io
+  branch: master
 #    gitee:
 #      url: git@gitee.com:iamfeiyu/iamfeiyu.git
 #      branch: master
@@ -366,7 +364,6 @@ theme_config:
 
   links:
     UZER.ME: https://uzer.me/u/signin
-    导航湾: http://daohangwan.com/board/bq2d
     #Title: http://yoursite.com
 
   # Table of Contents in the Sidebar
@@ -520,7 +517,7 @@ theme_config:
     # See: https://github.com/highlightjs/highlight.js/tree/master/src/styles
     theme:
       light: default
-      dark: tomorrow-night
+      dark: stackoverflow-dark
     # See: https://github.com/PrismJS/prism/tree/master/themes
     prism:
       light: prism
