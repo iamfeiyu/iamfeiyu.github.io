@@ -4,4 +4,4 @@ Thumbs.db
 .deploy*/
 .vscode/
 .deploy_git/
-.deploy_git/
+.public/
