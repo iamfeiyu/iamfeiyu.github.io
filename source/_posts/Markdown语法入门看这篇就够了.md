@@ -1,10 +1,9 @@
 ---
 title: Markdown语法入门看这篇就够了
 categories:
-  - 技能
-  - Markdown
+  - 写作输出
 tags:
-  - 工具
+  - 技术
 abbrlink: 9a4229e7
 date: 2018-05-06 12:10:55
 ---
