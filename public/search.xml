@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>AppSo产品发布功能页面流程分析</title>
-    <url>/posts/3c1dfcc0.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h2><p>体验发布产品到「AppWall」的功能，梳理整个体验的页面流程。</p>
-<h2 id="发布功能业务流程图"><a href="#发布功能业务流程图" class="headerlink" title="发布功能业务流程图"></a>发布功能业务流程图</h2><p>体验发布产品到「AppWall」的功能：体验整个功能逻辑：点击发布——搜索app——编写内容——等待审核——发布成功</p>
-<span id="more"></span>
-
-<p>下面是「发布」功能的业务流程图：</p>
-<p><img data-src="https://cdn.iamyu.top/img/20190720145823.png"></p>
-<h2 id="发布功能页面流程图"><a href="#发布功能页面流程图" class="headerlink" title="发布功能页面流程图"></a>发布功能页面流程图</h2><p>下面是根据发布功能业务流程图制作的页面流程图：</p>
-<p><img data-src="https://cdn.iamyu.top/img/20190720145906.png"></p>
-<h2 id="页面流程分析总结"><a href="#页面流程分析总结" class="headerlink" title="页面流程分析总结"></a>页面流程分析总结</h2><ul>
-<li>页面流程图的绘制基于业务流程图来制作，思路会更清晰；</li>
-<li>在页面流程图的绘制过程中，先考虑主页面的流程，其次考虑分支页面或次级页面，最后补充异常流程和异常提示；</li>
-<li>在页面流程图的制作中主要考虑页面级别的信息，不要过多涉及其他次级信息，否自会导致页面流程图过于臃肿。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>产品经理</category>
-      </categories>
-      <tags>
-        <tag>产品感</tag>
-        <tag>流程分析</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown语法入门看这篇就够了</title>
     <url>/posts/9a4229e7.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="标准Markdown语法"><a href="#标准Markdown语法" class="headerlink" title="标准Markdown语法"></a>标准Markdown语法</h2><h3 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h3><blockquote>
@@ -104,6 +79,82 @@
       </tags>
   </entry>
   <entry>
+    <title>AppSo产品发布功能页面流程分析</title>
+    <url>/posts/3c1dfcc0.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h2><p>体验发布产品到「AppWall」的功能，梳理整个体验的页面流程。</p>
+<h2 id="发布功能业务流程图"><a href="#发布功能业务流程图" class="headerlink" title="发布功能业务流程图"></a>发布功能业务流程图</h2><p>体验发布产品到「AppWall」的功能：体验整个功能逻辑：点击发布——搜索app——编写内容——等待审核——发布成功</p>
+<span id="more"></span>
+
+<p>下面是「发布」功能的业务流程图：</p>
+<p><img data-src="https://cdn.iamyu.top/img/20190720145823.png"></p>
+<h2 id="发布功能页面流程图"><a href="#发布功能页面流程图" class="headerlink" title="发布功能页面流程图"></a>发布功能页面流程图</h2><p>下面是根据发布功能业务流程图制作的页面流程图：</p>
+<p><img data-src="https://cdn.iamyu.top/img/20190720145906.png"></p>
+<h2 id="页面流程分析总结"><a href="#页面流程分析总结" class="headerlink" title="页面流程分析总结"></a>页面流程分析总结</h2><ul>
+<li>页面流程图的绘制基于业务流程图来制作，思路会更清晰；</li>
+<li>在页面流程图的绘制过程中，先考虑主页面的流程，其次考虑分支页面或次级页面，最后补充异常流程和异常提示；</li>
+<li>在页面流程图的制作中主要考虑页面级别的信息，不要过多涉及其他次级信息，否自会导致页面流程图过于臃肿。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>产品经理</category>
+      </categories>
+      <tags>
+        <tag>产品感</tag>
+        <tag>流程分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「tataUFO」注册流程分析</title>
+    <url>/posts/f872f4a9.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>通过流程来认识产品是个有效的方法 </p>
+<h2 id="测试环境"><a href="#测试环境" class="headerlink" title="测试环境"></a>测试环境</h2><p>软件版本：v6.8.7</p>
+<p>手机：华为荣耀7X</p>
+<span id="more"></span>
+
+<h2 id="业务流程图"><a href="#业务流程图" class="headerlink" title="业务流程图"></a>业务流程图</h2><p><img data-src="https://cdn.iamyu.top/img/20190720145743.png"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>着眼从细节，测试功能操作流程中的每个细节，让我收获了更多的体验和感受，深刻体会到，要想获得产品感，就要深入进去分析功能流程及细节。</p>
+]]></content>
+      <categories>
+        <category>产品经理</category>
+      </categories>
+      <tags>
+        <tag>产品感</tag>
+        <tag>分析报告</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在Obsidian中写作时，如何高效的应用具备兼容性的图片引用</title>
+    <url>/posts/49c5b306.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<p>内容是我在文章写作中引用图片的工作流</p>
+</blockquote>
+<h2 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h2><ol>
+<li>小建议：在软件中建议将写作类目的文件夹与其它类目的分开，包括其图片/文件附件</li>
+<li>在文件所在文件夹下，新建文件夹“attachments”作为文件所需图片附件存储位置，也可以随自己喜好将其重命名为其它名称。</li>
+<li>电脑安装“PicGo”等上传图片到云端图床的软件工具</li>
+<li>安装插件“Wikilinks to MDLinks”，为其快捷命令“Toggle selected wikilink to markdown link and vice versa”设置快捷键“Ctrl + Alt + G”</li>
+</ol>
+<span id="more"></span>
+
+<h2 id="七个步骤"><a href="#七个步骤" class="headerlink" title="七个步骤"></a>七个步骤</h2><ol>
+<li>将文章所需的，或（库本地图片）创建副本或（网络图片）下载的图片，归一存储在文章同级目录的“attachments”文件夹中</li>
+<li>在文中以相对路径方式引入图片，引用有Wiki和Markdown两种链接形式，下方步骤以Wiki链接为基础继续</li>
+<li>在文章撰写完成后，把文件所需全部图片，通过“PicGo”等上传到图床工具上传到云端图床</li>
+<li>复制图床地址，在文章中用“Ctrl + H”快捷键打开“查找和替换”功能，查找“attachments/”一键全部替换为“复制的图床地址”（形如:<a href="https://img.iamyu.top/%EF%BC%89">https://img.iamyu.top/）</a></li>
+<li>通过快捷键“Ctrl + Alt + G”将各个Wiki图片链接转换成Markdown链接（还未找到合适的，能将单一文件中Wiki链接一键转换为MD链接的插件，如果你知道，请在评论区留言）</li>
+<li>切换预览模式，确认各图片是否皆可渲染展示出来，若是，则“大功告成”，若否，则按照以上步骤检查图片链接</li>
+<li>若“大功告成”，便可将文章全文复制粘贴到各大支持Markdown的信息发布平台或自己的博客（如Hexo引擎博客、Wordpress博客）</li>
+</ol>
+]]></content>
+      <categories>
+        <category>写作输出</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>obsidian</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>QQ、微信、新浪「内容发布」功能对比分析报告</title>
     <url>/posts/6cc5b559.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="背景及目的"><a href="#背景及目的" class="headerlink" title="背景及目的"></a>背景及目的</h2><p>随着国内互联网的发展、产品同质化严重，越来越多的产品选择加入了社交功能，试图以此增强用户粘性。社交功能最核心的功能之一便是个人内容分享，如果能够搭建起完善的内容互动机制（生态），这势必会形成产品的两点与核心竞争力（壁垒）。而这一切的起点，来源于「内容发布」。</p>
@@ -167,25 +218,6 @@
       </tags>
   </entry>
   <entry>
-    <title>「tataUFO」注册流程分析</title>
-    <url>/posts/f872f4a9.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>通过流程来认识产品是个有效的方法 </p>
-<h2 id="测试环境"><a href="#测试环境" class="headerlink" title="测试环境"></a>测试环境</h2><p>软件版本：v6.8.7</p>
-<p>手机：华为荣耀7X</p>
-<span id="more"></span>
-
-<h2 id="业务流程图"><a href="#业务流程图" class="headerlink" title="业务流程图"></a>业务流程图</h2><p><img data-src="https://cdn.iamyu.top/img/20190720145743.png"></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>着眼从细节，测试功能操作流程中的每个细节，让我收获了更多的体验和感受，深刻体会到，要想获得产品感，就要深入进去分析功能流程及细节。</p>
-]]></content>
-      <categories>
-        <category>产品经理</category>
-      </categories>
-      <tags>
-        <tag>产品感</tag>
-        <tag>分析报告</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>「网易蜗牛读书」写书评功能调研报告</title>
     <url>/posts/686883d5.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="调研说明"><a href="#调研说明" class="headerlink" title="调研说明"></a>调研说明</h2><p><strong>调研目的：</strong></p>
@@ -228,38 +260,6 @@
       <tags>
         <tag>产品感</tag>
         <tag>功能调研</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在Obsidian中写作时，如何高效的应用具备兼容性的图片引用</title>
-    <url>/posts/49c5b306.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<p>内容是我在文章写作中引用图片的工作流</p>
-</blockquote>
-<h2 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h2><ol>
-<li>小建议：在软件中建议将写作类目的文件夹与其它类目的分开，包括其图片/文件附件</li>
-<li>在文件所在文件夹下，新建文件夹“attachments”作为文件所需图片附件存储位置，也可以随自己喜好将其重命名为其它名称。</li>
-<li>电脑安装“PicGo”等上传图片到云端图床的软件工具</li>
-<li>安装插件“Wikilinks to MDLinks”，为其快捷命令“Toggle selected wikilink to markdown link and vice versa”设置快捷键“Ctrl + Alt + G”</li>
-</ol>
-<span id="more"></span>
-
-<h2 id="七个步骤"><a href="#七个步骤" class="headerlink" title="七个步骤"></a>七个步骤</h2><ol>
-<li>将文章所需的，或（库本地图片）创建副本或（网络图片）下载的图片，归一存储在文章同级目录的“attachments”文件夹中</li>
-<li>在文中以相对路径方式引入图片，引用有Wiki和Markdown两种链接形式，下方步骤以Wiki链接为基础继续</li>
-<li>在文章撰写完成后，把文件所需全部图片，通过“PicGo”等上传到图床工具上传到云端图床</li>
-<li>复制图床地址，在文章中用“Ctrl + H”快捷键打开“查找和替换”功能，查找“attachments/”一键全部替换为“复制的图床地址”（形如:<a href="https://img.iamyu.top/%EF%BC%89">https://img.iamyu.top/）</a></li>
-<li>通过快捷键“Ctrl + Alt + G”将各个Wiki图片链接转换成Markdown链接（还未找到合适的，能将单一文件中Wiki链接一键转换为MD链接的插件，如果你知道，请在评论区留言）</li>
-<li>切换预览模式，确认各图片是否皆可渲染展示出来，若是，则“大功告成”，若否，则按照以上步骤检查图片链接</li>
-<li>若“大功告成”，便可将文章全文复制粘贴到各大支持Markdown的信息发布平台或自己的博客（如Hexo引擎博客、Wordpress博客）</li>
-</ol>
-]]></content>
-      <categories>
-        <category>写作输出</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>obsidian</tag>
       </tags>
   </entry>
 </search>
