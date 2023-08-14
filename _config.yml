@@ -117,13 +117,11 @@ theme: next
 deploy:
   type: git
   message: "Updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
-  repo:
-    github: 
-      url: git@github.com:iamfeiyu/iamfeiyu.github.io.git
-      branch: master
-    gitee:
-      url: git@gitee.com:iamfeiyu/iamfeiyu.git
-      branch: master
+  repo: https://github.com/iamfeiyu/iamfeiyu.github.io
+  branch: master
+#    gitee:
+#      url: git@gitee.com:iamfeiyu/iamfeiyu.git
+#      branch: master
     
     # url: https://oauth2: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@github.com/iamfeiyu/iamfeiyu.github.io
 
@@ -213,7 +211,7 @@ theme_config:
     #ms_browserconfig: /images/browserconfig.xml
 
   # Show multilingual switcher in footer.
-  language_switcher: true
+  language_switcher: false
 
   footer:
     # Specify the date when the site was setup. If not defined, current year will be used.
@@ -229,21 +227,21 @@ theme_config:
       color: "#ff0000"
 
     # If not defined, `author` from Hexo `_config.yml` will be used.
-    copyright: feiyu
+    copyright: Feiyu
 
     # Powered by Hexo & NexT
     powered: false
 
     # Beian ICP and gongan information for Chinese users. See: http://www.beian.miit.gov.cn, http://www.beian.gov.cn
     beian:
-      enable: true
-      icp: 京ICP备20000086号-1
+      enable: false
+      icp: 
       # The digit in the num of gongan beian.
-      gongan_id:
+      gongan_id: 
       # The full num of gongan beian.
-      gongan_num:
+      gongan_num: 
       # The icon for gongan beian. See: http://www.beian.gov.cn/portal/download
-      gongan_icon_url:
+      gongan_icon_url: 
 
   # Creative Commons 4.0 International License.
   # See: https://creativecommons.org/share-your-work/licensing-types-examples
@@ -268,7 +266,7 @@ theme_config:
   scheme: Gemini
 
   # Dark Mode
-  darkmode: false
+  darkmode: true
 
 
   # ---------------------------------------------------------------
@@ -366,7 +364,6 @@ theme_config:
 
   links:
     UZER.ME: https://uzer.me/u/signin
-    导航湾: http://daohangwan.com/board/bq2d
     #Title: http://yoursite.com
 
   # Table of Contents in the Sidebar
@@ -429,7 +426,6 @@ theme_config:
     # If true, a donate button will be displayed in every article by default.
     enable: true
     animation: true
-    comment: 鼓励我继续创作吧！
 
   reward:
     wechatpay: uploads/images/wechatpay.jpg
@@ -442,7 +438,7 @@ theme_config:
   follow_me:
     #Twitter: https://twitter.com/username || fab fa-twitter
     #Telegram: https://t.me/channel_name || fab fa-telegram
-    #WeChat: /images/wechat_channel.jpg || fab fa-weixin
+    WeChat: uploads/images/wechat-subscriber-qcode.jpg || fab fa-weixin
     #RSS: /atom.xml || fa fa-rss
 
   # Related popular posts
@@ -520,7 +516,7 @@ theme_config:
     # See: https://github.com/highlightjs/highlight.js/tree/master/src/styles
     theme:
       light: default
-      dark: tomorrow-night
+      dark: stackoverflow-dark
     # See: https://github.com/PrismJS/prism/tree/master/themes
     prism:
       light: prism
@@ -534,7 +530,7 @@ theme_config:
   back2top:
     enable: true
     # Back to top in sidebar.
-    sidebar: false
+    sidebar: true
     # Scroll percent label in b2t button.
     scrollpercent: true
 
@@ -544,7 +540,7 @@ theme_config:
     # Available values: top | bottom
     position: top
     color: "#37c6c0"
-    height: 3px
+    height: 5px
 
   # Bookmark Support
   bookmark:
@@ -646,7 +642,7 @@ theme_config:
   baidu_site_verification:
 
   # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
-  baidu_push: false
+  baidu_push: true
 
 
   # ---------------------------------------------------------------
@@ -689,7 +685,7 @@ theme_config:
 
   # Vanilla JavaScript plugin for lazyloading images.
   # For more information: https://github.com/ApoorvSaxena/lozad.js
-  lazyload: false
+  lazyload: true
 
   # Pangu Support
   # For more information: https://github.com/vinta/pangu.js
@@ -700,12 +696,12 @@ theme_config:
   # For more information: https://github.com/GoogleChromeLabs/quicklink
   # Front-matter variable (unsupport home archive).
   quicklink:
-    enable: false
+    enable: true
 
     # Home page and archive page can be controlled through home and archive options below.
     # This configuration item is independent of `enable`.
-    home: false
-    archive: false
+    home: true
+    archive: true
 
     # Default (true) will initialize quicklink after the load event fires.
     delay: true
@@ -816,7 +812,7 @@ theme_config:
   # Star rating support to each article.
   # To get your ID visit https://widgetpack.com
   rating:
-    enable: false
+    enable: true
     id:     # <app_id>
     color:  fc6423
 
@@ -1005,11 +1001,11 @@ theme_config:
   # Progress bar in the top during page loading.
   # For more information: https://github.com/HubSpot/pace
   pace:
-    enable: false
+    enable: true
     # Themes list:
     # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
     # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
-    theme: minimal
+    theme: mac-osx
 
   # JavaScript 3D library.
   # Dependencies: https://github.com/next-theme/theme-next-three
@@ -1156,7 +1152,7 @@ theme_config:
     # three_waves: //cdn.jsdelivr.net/gh/next-theme/theme-next-three@1/three-waves.min.js
     # canvas_lines: //cdn.jsdelivr.net/gh/next-theme/theme-next-three@1/canvas_lines.min.js
     # canvas_sphere: //cdn.jsdelivr.net/gh/next-theme/theme-next-three@1/canvas_sphere.min.js
-    three:
+    three: 
     three_waves:
     canvas_lines:
     canvas_sphere:

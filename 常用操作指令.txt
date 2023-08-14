@@ -1,3 +1,14 @@
+### 常识
+.gitignore 该文件描述的是git忽略推送的目录及文件
+
+### 查看依赖包的版本
+将展示旧版本、合适的版本（Wanted）、最新版本
+npm outdated
+
+### 更新依赖包到合适的版本
+更新依赖包的版本到Wanted（合适的版本）。能够解决，本来正常，一段时间后突然不正常的情况。比如，部署总是失败。
+npm update
+
 ### git bash推送
 git push iamfeiyu hexo
 

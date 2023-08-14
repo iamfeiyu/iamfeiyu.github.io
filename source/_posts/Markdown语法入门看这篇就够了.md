@@ -1,10 +1,9 @@
 ---
 title: Markdown语法入门看这篇就够了
 categories:
-  - 技能
-  - Markdown
+  - 写作输出
 tags:
-  - 工具
+  - 技术
 abbrlink: 9a4229e7
 date: 2018-05-06 12:10:55
 ---
@@ -70,14 +69,14 @@ Email
 内联风格（`title` 是可选的）：
 
 ```
-![alt text](http://wx4.sinaimg.cn/mw690/0060lm7Tly1fqchde4zoaj309v08cglq.jpg "Title")
+![alt text](http://wx4.sinacdn.cn/mw690/0060lm7Tly1fqchde4zoaj309v08cglq.jpg "Title")
 ```
 
 引用风格（`title`是可选的）：
 
 ```
 ![alt text][id]
-[id]: http://wx4.sinaimg.cn/mw690/0060lm7Tly1fqchde4zoaj309v08cglq.jpg "Title")
+[id]: http://wx4.sinacdn.cn/mw690/0060lm7Tly1fqchde4zoaj309v08cglq.jpg "Title")
 ```
 
 ### 列表
