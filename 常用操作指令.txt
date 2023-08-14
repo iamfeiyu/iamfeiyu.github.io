@@ -1,59 +1,99 @@
-### 常识
+### 一、常识
 .gitignore 该文件描述的是git忽略推送的目录及文件
 
-### 查看依赖包的版本
-将展示旧版本、合适的版本（Wanted）、最新版本
+### 二、部署失败常见问题
+#### ①node版本和npm版本过低导致的部署失败
+原因分析：这是好长一段时间不使用部署之后，最常导致部署失败的原因。
+解决办法：通过nvm命令安装node最新稳定版本即可，切记，用nvm安装新的node版本后，一定要用`nvm use 指定版本号`来使用新版本。
+
+#### ②node版本更新后，提示无法使用对应的npm版本
+（node有对应npm版本，node被安装npm也将被自动安装。升级node版本，也将同时升级使用的npm版本。因此，不需要单独安装npm和更新npm版本）（NVM是专门用于管理node版本的程序）
+原因分析：NVM版本过低导致的。建议重新安装高版本的NVM。重新安装前应先用NVM命令卸载全部node版本
+
+常用nvm命令
+```
+# 查看安装的全部nvm版本
+nvm list
+# 安装指定node版本
+nvm install 18.16.0
+# 指定使用的node版本（安装node后，一定要告诉程序要使用的版本）
+nvm use 18.16.0
+# 卸载指定node版本
+nvm uninstall 18.16.0
+# 查看nvm当前版本
+nvm version
+```
+
+#### ③提示认证失败，显示443
+原因分析：网络链接问题，电脑本地的代理端口与Git代理端口不一致导致的。自Git的v2.40.*以上，连接远端库增加了代理认证过程。
+解决办法：
+```
+# 为git设置代理并指定端口，注意修改的端口应与本地代理端口保持一致。
+git config --global http.proxy http://127.0.0.1:本地代理端口号
+git config --global https.proxy http://127.0.0.1:本地代理端口号
+```
+
+#### ④提示认证失败，不显示443
+原因分析：这类问题建议先更新Git版本试试，Git旧版本中的认证方式过期是导致认证失败无法通过的主要原因。
+
+
+### 三、npm的常用指令
+```
+# 查看依赖包的版本。将展示旧版本、合适的版本（Wanted）、最新版本
 npm outdated
 
-### 更新依赖包到合适的版本
-更新依赖包的版本到Wanted（合适的版本）。能够解决，本来正常，一段时间后突然不正常的情况。比如，部署总是失败。
+# 更新依赖包到合适的版本。更新依赖包的版本到Wanted（合适的版本）。能够解决，本来正常，一段时间后突然不正常的情况。比如，部署总是失败。
 npm update
 
-### git bash推送
+# 查看版本
+npm -v
+```
+
+### 四、Git常用命令
+```
+# git bash推送
 git push iamfeiyu hexo
+```
 
-
-### 中英文同时发布
+### 五、Hexo引擎常用命令
+```
+# 中英文同时发布
 hexo clean && hexo g &&cd c://_D/GithubNative/iamfeiyu.github.io.en && hexo clean && hexo g && cd c://_D/GithubNative/iamfeiyu.github.io && cp -r c://_D/GithubNative/iamfeiyu.github.io.en/public/. c://_D/GithubNative/iamfeiyu.github.io/public/en/ && hexo d
 
-
-### new
-新建一篇文章。如果没有设置layout的话，默认使用_config.yml 中的 default_layout 参数代替。如果标题包含空格的话，请使用引号括起来。
+# new 新建一篇文章。如果没有设置layout的话，默认使用_config.yml 中的 default_layout 参数代替。如果标题包含空格的话，请使用引号括起来。
 hexo new [layout] <title>
 
-### generate
-生成静态文件。
+# generate 生成静态文件。
 hexo generate
-
-# 简写
+# 通常简写为
 hexo g
 
-
-### server
-启动本地服务器实现预览，访问地址为：http://localhost:4000/。
-
+# server 启动本地服务器预览，访问地址为：http://localhost:4000/。
 hexo server
-# 简写
+# 通常简写为
 hexo s
 
 
-### deploy
-部署到Github
+# deploy 部署博客页面到Github。默认部署到远端的iamyu.github.io资源库的master分支
 hexo deploy
-
-# 简写
+# 通常简写为
 hexo d
+```
 
-
-### 常用指令
- 
-# 标准参数启动服务器，生成和部署
+### 六、Hexo常用多命令连用方式
+```
+# 清理本地静态页面，并重新生成静态页面，并马上将静态页面部署到远端资源库
 hexo clean && hexo g && hexo d
 
+# 清理本地静态页面，并重新生成静态页面，并马上在本地进行预览
+hexo clean && hexo g && hexo s 
 
-# 标准参数启动服务器，生成和本地预览
-hexo clean && hexo g && hexo s
- 
+# 清理本地静态页面，并重新生成静态页面
+hexo clean && g
 
-# 生成静态文件后部署 
+# 将静态页面部署到远端资源库
+hexo d
+
+# 生成静态页面后部署 
 hexo g -d
+```
