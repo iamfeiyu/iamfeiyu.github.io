@@ -104,25 +104,6 @@
       </tags>
   </entry>
   <entry>
-    <title>「tataUFO」注册流程分析</title>
-    <url>/posts/f872f4a9.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>通过流程来认识产品是个有效的方法 </p>
-<h2 id="测试环境"><a href="#测试环境" class="headerlink" title="测试环境"></a>测试环境</h2><p>软件版本：v6.8.7</p>
-<p>手机：华为荣耀7X</p>
-<span id="more"></span>
-
-<h2 id="业务流程图"><a href="#业务流程图" class="headerlink" title="业务流程图"></a>业务流程图</h2><p><img data-src="https://cdn.iamyu.top/img/20190720145743.png"></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>着眼从细节，测试功能操作流程中的每个细节，让我收获了更多的体验和感受，深刻体会到，要想获得产品感，就要深入进去分析功能流程及细节。</p>
-]]></content>
-      <categories>
-        <category>产品经理</category>
-      </categories>
-      <tags>
-        <tag>产品感</tag>
-        <tag>分析报告</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>QQ、微信、新浪「内容发布」功能对比分析报告</title>
     <url>/posts/6cc5b559.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="背景及目的"><a href="#背景及目的" class="headerlink" title="背景及目的"></a>背景及目的</h2><p>随着国内互联网的发展、产品同质化严重，越来越多的产品选择加入了社交功能，试图以此增强用户粘性。社交功能最核心的功能之一便是个人内容分享，如果能够搭建起完善的内容互动机制（生态），这势必会形成产品的两点与核心竞争力（壁垒）。而这一切的起点，来源于「内容发布」。</p>
@@ -183,6 +164,25 @@
         <tag>产品感</tag>
         <tag>需求分析</tag>
         <tag>功能分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「tataUFO」注册流程分析</title>
+    <url>/posts/f872f4a9.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>通过流程来认识产品是个有效的方法 </p>
+<h2 id="测试环境"><a href="#测试环境" class="headerlink" title="测试环境"></a>测试环境</h2><p>软件版本：v6.8.7</p>
+<p>手机：华为荣耀7X</p>
+<span id="more"></span>
+
+<h2 id="业务流程图"><a href="#业务流程图" class="headerlink" title="业务流程图"></a>业务流程图</h2><p><img data-src="https://cdn.iamyu.top/img/20190720145743.png"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>着眼从细节，测试功能操作流程中的每个细节，让我收获了更多的体验和感受，深刻体会到，要想获得产品感，就要深入进去分析功能流程及细节。</p>
+]]></content>
+      <categories>
+        <category>产品经理</category>
+      </categories>
+      <tags>
+        <tag>产品感</tag>
+        <tag>分析报告</tag>
       </tags>
   </entry>
   <entry>
