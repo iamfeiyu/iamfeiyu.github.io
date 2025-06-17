@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>AppSo产品发布功能页面流程分析</title>
+    <url>/posts/3c1dfcc0.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h2><p>体验发布产品到「AppWall」的功能，梳理整个体验的页面流程。</p>
+<h2 id="发布功能业务流程图"><a href="#发布功能业务流程图" class="headerlink" title="发布功能业务流程图"></a>发布功能业务流程图</h2><p>体验发布产品到「AppWall」的功能：体验整个功能逻辑：点击发布——搜索app——编写内容——等待审核——发布成功</p>
+<span id="more"></span>
+
+<p>下面是「发布」功能的业务流程图：</p>
+<p><img data-src="https://cdn.iamyu.top/img/20190720145823.png"></p>
+<h2 id="发布功能页面流程图"><a href="#发布功能页面流程图" class="headerlink" title="发布功能页面流程图"></a>发布功能页面流程图</h2><p>下面是根据发布功能业务流程图制作的页面流程图：</p>
+<p><img data-src="https://cdn.iamyu.top/img/20190720145906.png"></p>
+<h2 id="页面流程分析总结"><a href="#页面流程分析总结" class="headerlink" title="页面流程分析总结"></a>页面流程分析总结</h2><ul>
+<li>页面流程图的绘制基于业务流程图来制作，思路会更清晰；</li>
+<li>在页面流程图的绘制过程中，先考虑主页面的流程，其次考虑分支页面或次级页面，最后补充异常流程和异常提示；</li>
+<li>在页面流程图的制作中主要考虑页面级别的信息，不要过多涉及其他次级信息，否自会导致页面流程图过于臃肿。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>产品经理</category>
+      </categories>
+      <tags>
+        <tag>产品感</tag>
+        <tag>流程分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello 世界</title>
+    <url>/posts/aa1ff396.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h2><p>测试是否能新建文章并成功部署</p>
+<span id="more"></span>
+
+]]></content>
+      <categories>
+        <category>经理</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>QQ、微信、新浪「内容发布」功能对比分析报告</title>
+    <url>/posts/6cc5b559.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="背景及目的"><a href="#背景及目的" class="headerlink" title="背景及目的"></a>背景及目的</h2><p>随着国内互联网的发展、产品同质化严重，越来越多的产品选择加入了社交功能，试图以此增强用户粘性。社交功能最核心的功能之一便是个人内容分享，如果能够搭建起完善的内容互动机制（生态），这势必会形成产品的两点与核心竞争力（壁垒）。而这一切的起点，来源于「内容发布」。</p>
+<span id="more"></span>
+
+<p>为此，我希望通过研究一些成熟产品，来了解它们是如何处理这一动作的。此出选择新浪微博、微信朋友圈、QQ动态这三款成熟的产品作为调研对象，不仅希望通过此次调研认识「内容发布」功能，还希望通过此次调研将所学（产品视角、功能理解）得到实践。</p>
+<h2 id="用户需求分析"><a href="#用户需求分析" class="headerlink" title="用户需求分析"></a>用户需求分析</h2><h3 id="用户画像"><a href="#用户画像" class="headerlink" title="用户画像"></a>用户画像</h3><blockquote>
+<p>数据来自艾瑞App指数</p>
+</blockquote>
+<p><img data-src="https://cdn.iamyu.top/img/20190720150000.png"></p>
+<p><img data-src="https://cdn.iamyu.top/img/20190720150038.png"></p>
+<p><img data-src="https://cdn.iamyu.top/img/20190720150100.png"></p>
+<p>从这三款产品的用户画像可以看出，三款产品的用户从年龄维度看几乎重叠，几乎80后占到了各自用户人群的80%，其中使用QQ的用户中90后比其它两款产品稍多一点。从图中还可以知道，使用微博的女性用户多余男性用户，而其它两款产品与此相反。</p>
+<h3 id="用户需求分析比对"><a href="#用户需求分析比对" class="headerlink" title="用户需求分析比对"></a>用户需求分析比对</h3><p><img data-src="https://cdn.iamyu.top/img/20190720150556.png"></p>
+<p><img data-src="https://cdn.iamyu.top/img/20190720150530.png"></p>
+<p><img data-src="https://cdn.iamyu.top/img/20190720150646.png"></p>
+<p>通过用户画像和用户需求分析思维导图，可以看出，这三款产品的针对的用户群体类型差异蛮大的：</p>
+<ul>
+<li>QQ的用户群如果按照社会属性维度来细分，再结合年龄，就可以知到QQ有两类典型用户，学生群体和刚刚从学校毕业的上班族，学生主要使用场景为分享个人动态，和关注同学动态，而上班族的使用场景多以学习为目的在QQ群内活跃，或进行主题式与他人交流。</li>
+<li>微信用户涵盖的社会身份相较QQ要更广泛一点，有同学，有家人，有同事等，日常重点放在发布个人动态并关注他人动态，进行熟人之间的互动。</li>
+<li>微博用户涵盖的社会身份比QQ和微信更多，普遍交流对象是陌生人，大家共同为某一个话题和主题进行交流互动。由于用户面对的对象普遍是陌生人，因此通过交流的联系是非常弱的，私信沟通因此被藏得很深。微博中平常都是通过新闻热点话题，而引起用户关注，往往能引起群体效应，这种效果常被企业和机构发掘用于企业宣传，明星宣传，大V个人形象宣传等。</li>
+</ul>
+<h2 id="功能设计对比"><a href="#功能设计对比" class="headerlink" title="功能设计对比"></a>功能设计对比</h2><h3 id="测试环境："><a href="#测试环境：" class="headerlink" title="测试环境："></a>测试环境：</h3><p>手机：华为荣耀7x<br>QQ：v7.9.7.3920（当前最新版）<br>微信：v7.0.0（当前最新版）<br>新浪微博：v9.1.0（当前最新版）</p>
+<h3 id="功能测试界面："><a href="#功能测试界面：" class="headerlink" title="功能测试界面："></a>功能测试界面：</h3><p><img data-src="https://cdn.iamyu.top/img/20190720150718.png"></p>
+<p><img data-src="https://cdn.iamyu.top/img/20190720150738.png"></p>
+<h3 id="用户操作路径："><a href="#用户操作路径：" class="headerlink" title="用户操作路径："></a>用户操作路径：</h3><p><img data-src="https://cdn.iamyu.top/img/20190720150850.png"></p>
+<p><strong>1）触发方式</strong></p>
+<p>a、从内容发布路径看，新浪微博发布内容的路径是最短的，QQ和微信至少多一步。</p>
+<p>b、从功能设计视角看，新浪微博较QQ和微信更看重用户内容发布。</p>
+<p><strong>2）发布后内容展示时的周边环境</strong></p>
+<p>a、QQ发布内容后，会根据进入方式的不同而跳转，但最终都会显示在动态中的第一条位置。</p>
+<p>b、微信发布内容后，会跳转到朋友圈，并看到在朋友圈第一条显示的发布。</p>
+<p>c、微博发布内容后，会跳转到微博首页，发布内容显示在首页面“关注”选项卡下第一条位置。</p>
+<h3 id="核心业务流程对比"><a href="#核心业务流程对比" class="headerlink" title="核心业务流程对比"></a>核心业务流程对比</h3><p><img data-src="https://cdn.iamyu.top/img/20190720150949.png"></p>
+<p>通过对业务流程的对比可以看出，「内容发布」功能流程方面，QQ动态和新浪微博一致，纯文字内容发布和图文发布合二为一，而微信将纯文字内容发布和图文内容发布分开来。</p>
+<p>在交互方面，这三款产品都有边界限制，和交互形式，但从用户体验看，细节做的最好的应该是新浪微博。在文字编辑状态，文字字数超出限制，QQ动态和新浪微博都提示了超出了具体多少个字，而微信没有任何提示，仅仅在发表时提示用户超出字数限制，超出了多少字也无从知道，新浪微博有个亮点是在超出字数后提交时会提示用户文字内容的范围，这一点我认为很有心。</p>
+<h3 id="功能项对比："><a href="#功能项对比：" class="headerlink" title="功能项对比："></a>功能项对比：</h3><p><img data-src="https://cdn.iamyu.top/img/20190720151013.png"></p>
+<p>从内容编辑设置功能看，QQ动态的「内容发布」功能的小功能最为丰富，其次是新浪微博，最后是微信朋友圈。</p>
+<h2 id="功能差异背后的原因"><a href="#功能差异背后的原因" class="headerlink" title="功能差异背后的原因"></a>功能差异背后的原因</h2><p>结合用户需求分析功能差异的原因：</p>
+<ol>
+<li>QQ和微信的产品定位都是即使通讯，因此在满足用户需求方面，重点放在了消息快速应答方面通讯功能，而内容发布的需求满足被放在了第二位，而新浪微博更注重以话题内容为主的交流方式，所以新浪微博在发布内容的路径方面较QQ和微博会设计的更短。</li>
+<li>微信用户追求的是快速应答，微信为了满足这一需求，在产品设计上提出了简洁原则，这一点在内容发布的交互设计上面就有体现，没有过多的逻辑判断和用户提示，怎么简洁怎么来，而且较QQ和微博，微信的简洁这一特点显得尤为突出。</li>
+<li>微信将纯文字内容发布和图文内容发布分开来，这个做法符合微信产品设计的一贯原则——简洁，通过将两个功能区分，再配合朋友圈中有限的信息展示区域，促使用户突出文字或图片各自的特点，让图片不在多而在精，让文字不在长而在简练，保证在朋友圈中，其他用户能够快速的获取凝练的短信息。微信的这个产品设计是“以产品设计来影响用户行为，使其符合产品设定规则” 的经典案例，保证了内容区域的信息纯净。</li>
+<li>微信说说发布中对于字数超限制的反馈提示很模糊，并不像QQ动态和微博中设计的那么具体。我认为微信还是坚持了它一贯的简洁风格，当用户发布内容开始重视凝练的短消息开始，超出字数限制2000的可能性几乎没有，因此在这个反馈的功能上处理的较粗糙并不影响到用户体验。本人认为微信这么做还减少了发布功能大量逻辑判断的代码，从而减少了程序包的大小。</li>
+<li>QQ动态编辑说说的小功能较其它最为丰富，极为适宜展示个人风格，这与QQ动态的用户有关，QQ用户的活跃用户是学生，该年龄段的用户最喜欢通过个性方式来展现自己，QQ这么设计是为了满足年轻用户的需求。</li>
+</ol>
+<h2 id="功能对比结论"><a href="#功能对比结论" class="headerlink" title="功能对比结论"></a>功能对比结论</h2><ol>
+<li><strong>QQ动态发布内容功能</strong>为迎合年轻学生群体的个性化需求，提供了丰富的编辑功能。该功能作为QQ的一部分，相较产品定义，它居于及时通讯功能需求之下，这使得内容发布的触达路径稍长。</li>
+<li><strong>微信朋友圈发布内容功能</strong>体现了产品设计的简洁原则，也与朋友圈内容内在机制有关，那就是突出文字或图片特点，产生精炼的短信息，因此在内容发布这个开端就体现出了简洁，影响用户行为，促使信息更简练而有价值。</li>
+<li><strong>新浪微博发布内容功能</strong>的触达路径最短，满足用户最快发布内容的需求。</li>
+</ol>
+<h2 id="启示"><a href="#启示" class="headerlink" title="启示"></a>启示</h2><p>产品功能的设计应根据产品目标用户群的特点体现侧重点。不是所有的目标用户都要重视，也不是所有的用户需求都要满足。</p>
+]]></content>
+      <categories>
+        <category>产品经理</category>
+      </categories>
+      <tags>
+        <tag>产品感</tag>
+        <tag>需求分析</tag>
+        <tag>功能分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「tataUFO」注册流程分析</title>
+    <url>/posts/f872f4a9.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>通过流程来认识产品是个有效的方法 </p>
+<h2 id="测试环境"><a href="#测试环境" class="headerlink" title="测试环境"></a>测试环境</h2><p>软件版本：v6.8.7</p>
+<p>手机：华为荣耀7X</p>
+<span id="more"></span>
+
+<h2 id="业务流程图"><a href="#业务流程图" class="headerlink" title="业务流程图"></a>业务流程图</h2><p><img data-src="https://cdn.iamyu.top/img/20190720145743.png"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>着眼从细节，测试功能操作流程中的每个细节，让我收获了更多的体验和感受，深刻体会到，要想获得产品感，就要深入进去分析功能流程及细节。</p>
+]]></content>
+      <categories>
+        <category>产品经理</category>
+      </categories>
+      <tags>
+        <tag>产品感</tag>
+        <tag>分析报告</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown语法入门看这篇就够了</title>
+    <url>/posts/9a4229e7.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="标准Markdown语法"><a href="#标准Markdown语法" class="headerlink" title="标准Markdown语法"></a>标准Markdown语法</h2><h3 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h3><blockquote>
+<p>这个文档本身就是使用Markdown编写的。<br>Markdown编辑器允许你通过编写易读、易写的富文本格式，然后很方便就可以转换成有效的HTML。</p>
+</blockquote>
+<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p>Setxt-style:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">标题1</span><br><span class="line">===</span><br><span class="line">标题2</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<p>atx-style（尾部的 <code>#</code> 是可选的）：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 标题1 #</span><br><span class="line">## 标题2 #</span><br><span class="line">###### 标题6 #</span><br></pre></td></tr></table></figure>
+
+<h3 id="强调或突出"><a href="#强调或突出" class="headerlink" title="强调或突出"></a>强调或突出</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*突出*	**强调**</span><br><span class="line">_突出_	__强调__</span><br></pre></td></tr></table></figure>
+
+<h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p>内联风格（<code>title</code> 是可选的）：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[百度官网](http://www.baidu.com &quot;Title&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>引用风格（<code>title</code> 是可选的）：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[百度官网][id]。之后，可以在文章的任意地方，定义这个链接:</span><br><span class="line">[id]:http://www.baidu.com &quot;Title&quot;</span><br></pre></td></tr></table></figure>
+
+<p>Email</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">作者的email链接</span><br></pre></td></tr></table></figure>
+
+<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p>内联风格（<code>title</code> 是可选的）：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![alt text](http://wx4.sinacdn.cn/mw690/0060lm7Tly1fqchde4zoaj309v08cglq.jpg &quot;Title&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>引用风格（<code>title</code>是可选的）：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![alt text][id]</span><br><span class="line">[id]: http://wx4.sinacdn.cn/mw690/0060lm7Tly1fqchde4zoaj309v08cglq.jpg &quot;Title&quot;)</span><br></pre></td></tr></table></figure>
+
+<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>有序列表：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 列表项 1</span><br><span class="line">2. 列表项 2</span><br></pre></td></tr></table></figure>
+
+<p>无序列表：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">* 列表项 1</span><br><span class="line">* 列表项 2</span><br><span class="line"></span><br><span class="line">- 列表项 3</span><br><span class="line">- 列表项 4</span><br></pre></td></tr></table></figure>
+
+<p>列表项缩进两个空格就可以创建一个嵌套的列表：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 列表项 1</span><br><span class="line"> 1. 嵌套的列表可以是有序的</span><br><span class="line"> 2. 格式和正常的有序、无序列表没有差异</span><br><span class="line">2. 列表项 2</span><br><span class="line"> * 嵌套的列表可以是无序的</span><br><span class="line"> 	* 这个嵌套的列表项有有四个空格的缩进，因为它的父列表项自身就带有2个空格的缩进</span><br><span class="line">  * 还允许更多层的嵌套</span><br><span class="line">3. 列表项 3</span><br></pre></td></tr></table></figure>
+
+<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; 段落前面添加大于号和空格，就能够形成引用段落。</span><br><span class="line">&gt;&gt; 这是嵌套的引用。</span><br></pre></td></tr></table></figure>
+
+<h3 id="内联代码"><a href="#内联代码" class="headerlink" title="内联代码"></a>内联代码</h3><p><code>内联代码</code>使用反引号包含</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">`内联代码`使用反引号包含</span><br></pre></td></tr></table></figure>
+
+<p>你也可以像<code>这样</code>采用转义反引号</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">你也可以像``这样``使用转义反引号</span><br></pre></td></tr></table></figure>
+
+<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><p>通常上下使用3个反引号来包含代码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang=&quot;en&quot;&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset=&quot;UTF-8&quot;&gt;</span><br><span class="line">    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</span><br><span class="line">    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;</span><br><span class="line">    &lt;title&gt;Document&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    </span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+
+<p>有些编辑器也可以采用在代码的每行前，增加缩进4个空格或者1个tab来呈现</p>
+<p>tips：记得在使用tab的时候，在上面空一行</p>
+<h3 id="水平分割线"><a href="#水平分割线" class="headerlink" title="水平分割线"></a>水平分割线</h3><p>三个或更多的星号或下划线：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">___</span><br><span class="line">* * *</span><br><span class="line">*****</span><br><span class="line">_ _ _ _ _ _ </span><br></pre></td></tr></table></figure>
+
+<h3 id="强制换行"><a href="#强制换行" class="headerlink" title="强制换行"></a>强制换行</h3><p>在行尾输入两个空格或者<code>&lt;br/&gt;</code>：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">我在上一行</span><br><span class="line">我在下一行</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="GitHub-Flavored-Markdown语法"><a href="#GitHub-Flavored-Markdown语法" class="headerlink" title="GitHub Flavored Markdown语法"></a>GitHub Flavored Markdown语法</h2><h3 id="链接自动展示"><a href="#链接自动展示" class="headerlink" title="链接自动展示"></a>链接自动展示</h3><p><a href="http://www.baidu.com/">http://www.baidu.com</a></p>
+<h3 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h3><p>通过两个波浪号将字符包含：</p>
+<p><del>删除的文本或已完成的待办事项</del></p>
+<h3 id="围栏式代码块"><a href="#围栏式代码块" class="headerlink" title="围栏式代码块"></a>围栏式代码块</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">标准的Markdown通过每行开头的四个空格将文本转化成代码块，而GFM支持围栏式代码块。只要将代码用```包含起来即可，不需要四个空格的缩进。</span><br></pre></td></tr></table></figure>
+
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>这是个简单的表格：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">First Header | Second Header | Third Header</span><br><span class="line">------------ | :------------: | ---------:</span><br><span class="line">Content Cell | Content Cell | Content Cell</span><br><span class="line">Content Cell | Content Cell | Content Cell</span><br></pre></td></tr></table></figure>
+
+<p>出于完美考虑，可以把两端都包围起来：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">| First Header | Second Header | Third Header |</span><br><span class="line">| ------------ | :------------: | ---------: |</span><br><span class="line">| Content Cell | Content Cell | Content Cell |</span><br><span class="line">| Content Cell | Content Cell | Content Cell |</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>写作输出</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在Obsidian中写作时，如何高效的应用具备兼容性的图片引用</title>
+    <url>/posts/49c5b306.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<p>内容是我在文章写作中引用图片的工作流</p>
+</blockquote>
+<h2 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h2><ol>
+<li>小建议：在软件中建议将写作类目的文件夹与其它类目的分开，包括其图片/文件附件</li>
+<li>在文件所在文件夹下，新建文件夹“attachments”作为文件所需图片附件存储位置，也可以随自己喜好将其重命名为其它名称。</li>
+<li>电脑安装“PicGo”等上传图片到云端图床的软件工具</li>
+<li>安装插件“Wikilinks to MDLinks”，为其快捷命令“Toggle selected wikilink to markdown link and vice versa”设置快捷键“Ctrl + Alt + G”</li>
+</ol>
+<span id="more"></span>
+
+<h2 id="七个步骤"><a href="#七个步骤" class="headerlink" title="七个步骤"></a>七个步骤</h2><ol>
+<li>将文章所需的，或（库本地图片）创建副本或（网络图片）下载的图片，归一存储在文章同级目录的“attachments”文件夹中</li>
+<li>在文中以相对路径方式引入图片，引用有Wiki和Markdown两种链接形式，下方步骤以Wiki链接为基础继续</li>
+<li>在文章撰写完成后，把文件所需全部图片，通过“PicGo”等上传到图床工具上传到云端图床</li>
+<li>复制图床地址，在文章中用“Ctrl + H”快捷键打开“查找和替换”功能，查找“attachments/”一键全部替换为“复制的图床地址”（形如:<a href="https://img.iamyu.top/%EF%BC%89">https://img.iamyu.top/）</a></li>
+<li>通过快捷键“Ctrl + Alt + G”将各个Wiki图片链接转换成Markdown链接（还未找到合适的，能将单一文件中Wiki链接一键转换为MD链接的插件，如果你知道，请在评论区留言）</li>
+<li>切换预览模式，确认各图片是否皆可渲染展示出来，若是，则“大功告成”，若否，则按照以上步骤检查图片链接</li>
+<li>若“大功告成”，便可将文章全文复制粘贴到各大支持Markdown的信息发布平台或自己的博客（如Hexo引擎博客、Wordpress博客）</li>
+</ol>
+]]></content>
+      <categories>
+        <category>写作输出</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>obsidian</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「网易蜗牛读书」写书评功能调研报告</title>
+    <url>/posts/686883d5.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="调研说明"><a href="#调研说明" class="headerlink" title="调研说明"></a>调研说明</h2><p><strong>调研目的：</strong></p>
+<p>作为微信读书的产品实习生，调研一下竞争对手「网易蜗牛读书」写书评的功能，了解为什么会上线该功能，了解该功能具体被怎么使用，并给出自己的调研分析结论。 </p>
+<span id="more"></span>
+
+<p><strong>测试环境说明：</strong></p>
+<p>手机设备：华为荣耀7X</p>
+<p>软件版本：v1.8.3</p>
+<blockquote>
+<p><strong>补充：</strong></p>
+<p>1.6.0 版本更新中，产品对阅读入口进行了调整。新的入口为：</p>
+<ol>
+<li>写书评的常规入口有：领读，我的，书籍详情页“推荐”模块下方的「我要写书评」文本框</li>
+<li>需要深入体验才会有的入口：书籍阅读过程中，点击右上角“菜单”，弹出的窗口中</li>
+</ol>
+</blockquote>
+<h2 id="产品介绍"><a href="#产品介绍" class="headerlink" title="产品介绍"></a>产品介绍</h2><p>​       <strong>一句话概括：</strong>「网易蜗牛读书」是网易出品的读书App，专注于精品正版书的深度阅读，以阅读时长为收费册率，每天可免费阅读1小时，倡议重度读书者围绕某一主题写书评，以此推荐书单，来吸引浅度阅读者深入阅读。</p>
+<h2 id="用户画像"><a href="#用户画像" class="headerlink" title="用户画像"></a>用户画像</h2><p>数据来自：艾瑞App指数</p>
+<p><img data-src="https://cdn.iamyu.top/img/20190720144329.png"></p>
+<p>由上图可知，目标用户中女性多于男性；从年龄来看，主要用户为40以前的轻中年人群，其中伴随互联网成长起来90后是最主要的用户人群；从地域角度看，用户主要分布在山东、江苏和广州等东边和东南边的沿海城市。</p>
+<h2 id="「写书评」功能分析"><a href="#「写书评」功能分析" class="headerlink" title="「写书评」功能分析"></a>「写书评」功能分析</h2><p><strong>从用户-场景-需求分析：</strong></p>
+<p><img data-src="https://cdn.iamyu.top/img/20190720145526.png"></p>
+<p><strong>领读人</strong>，作为优质领读信息流，优秀书评人，为普通用户推荐书单，帮助普通用户快速找到自己感兴趣的书籍。</p>
+<p><strong>普通用户</strong>，在App中获得阅读书籍的基础体验后，还能获得由自己喜欢领域的前辈的指引，这解决了读书周期长，找书难，找同类书更难的问题。</p>
+<p><strong>运营人员</strong>，通过推荐书评，吸引普通用户阅读，解决留存，还通过分享，来实现了拉新的目的。</p>
+<p><strong>从「写书评」的业务逻辑分析：</strong></p>
+<p><img data-src="https://cdn.iamyu.top/img/20190720145631.png"></p>
+<p>可以看到，单就「写书评」这个功能在App中就已经形成了一个闭环，这个闭环得形成，不仅可促成目标用户中，深度用户和浮浅用户之间互动，促进浮浅用户向深度用户的转化；而且随着时间的推移，将在App中沉淀出有价值的内容和核心种子群体，增加用户的黏性。这是个一石两鸟的策略。</p>
+<p><strong>从「写书评」业务流程分析：</strong></p>
+<p><img data-src="https://cdn.iamyu.top/img/20190720145704.png"></p>
+<p>从功能流程图来看，网易蜗牛读书App充分考虑到了用户体验，对用户写书评这个任务提供了完整的所需小功能，如插入推荐书籍，推荐批注，图片等，对异常判断的顺序设置的非常合理，对异常判断和处理也非常周全。</p>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>网易蜗牛读书App中的「写书评」功能应该是软件的灵魂，它将对App中的书籍资源的价值进行的充分的挖掘，通过「写书评」功能产出了非常有价值的书评，给读者带来了极好的读书体验。可以在书评评论区中体会到，用户对于书评提供的益处很是褒奖，赢得可极大人群的欢迎。综合来看，写书评这个功能设置方面充分考虑到了用户体验和完整性，同时，写书评功能还给普通用户解决困扰已久的读书问题，比如不知道读什么书，读了后找不到重点是什么，所读领域书籍之间不同点是什么等等难题。该功能还提供了互评、点赞等互动，促进了「写书评」这个功能在用户间地良性闭环。通过运营人员有意识的，推荐优质书评，和奖励领读人，让这个闭环显得更加完整了。这个闭环地形成，充分调动了深度用户与浮浅用户之间的交流，与信息转换，让读书变得更加意味深长了。「写书评」功能真的很棒。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这一次的作业的主要目的是调研网易蜗牛读书App的「写书评」功能，学习并练习如何进行一次闭环的功能调研。从中体会到，功能的调研不能局限在这个功能，要从认识这个产品开始，再深入到该功能的业务逻辑，用户操作流程和用户体验，最后再回到产品，分析该功能在产品中存在的意义和重要程度。</p>
+<p>经过如此分析的过程，才能全面的认识这个功能，回答，这个功能是做什么的，在这个产品中为什么会有这个功能。</p>
+]]></content>
+      <categories>
+        <category>产品经理</category>
+      </categories>
+      <tags>
+        <tag>产品感</tag>
+        <tag>功能调研</tag>
+      </tags>
+  </entry>
+</search>
