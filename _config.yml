@@ -117,7 +117,7 @@ theme: next
 deploy:
   type: git
   message: "Updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
-  repo: https://github.com/iamfeiyu/iamfeiyu.github.io
+  repo: git@github.com:iamfeiyu/iamfeiyu.github.io.git
   branch: master
 #    gitee:
 #      url: git@gitee.com:iamfeiyu/iamfeiyu.git
