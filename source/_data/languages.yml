@@ -1,6 +1,8 @@
 # language
 zh-CN:
   # items
+  menu:
+    playlist: 歌单
   post:
     comments:
       valine: 评论
