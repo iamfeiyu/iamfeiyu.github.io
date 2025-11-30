@@ -15,7 +15,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.iamyu.top          # url: https://iamfeiyu.github.io
+url: https://blog.iamyu.top          # url: https://iamfeiyu.github.io
 root: /
 # 下面四行是文章永久链接：方案二的设置
 permalink: posts/:abbrlink.html

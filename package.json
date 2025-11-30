@@ -9,10 +9,10 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "5.4.2"
+    "version": "7.3.0"
   },
   "dependencies": {
-    "hexo": "^7.2.0",
+    "hexo": "^7.3.0",
     "hexo-abbrlink": "^2.2.1",
     "hexo-deployer-git": "^3.0.0",
     "hexo-generator-archive": "^1.0.0",
@@ -34,7 +34,7 @@
     "gulp": "^4.0.2",
     "gulp-shell": "^0.8.0"
   },
-   "resolutions": {
+  "resolutions": {
     "hexo-deployer-git": "^4.0.0"
   }
 }
